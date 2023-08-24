@@ -18,7 +18,7 @@ def makeSalaryUnify(salaryForHour):
         upperCase = upperCase[:-3]
         upperCase = int(upperCase)*160
     return lowerCase + str(upperCase)
-def getAdditionalData(link, levelSpec,technologies):
+def getAdditionalData(link, levelSpec,technologies,optTechnologies):
     internalPage = requests.get(link)
     soup = BeautifulSoup(internalPage.content, "html.parser")
     levelSpecQ = soup.find("div", attrs={"data-scroll-id":"position-levels"})
@@ -26,12 +26,21 @@ def getAdditionalData(link, levelSpec,technologies):
         levelSpec = levelSpecQ.text
         print(levelSpec + "\n")
 
+    #TODO: What if there is only optional tech?
     techBox = soup.find("div", attrs={"data-scroll-id":"technologies-1"})
     if techBox is not None:
         expectedTech = techBox.find_all("li",class_="offer-viewjJiyAa offer-vieweKR6vg")
+        optionalTech = techBox.find_all("li", class_="offer-vieweKR6vg")
         for tech in expectedTech:
             technologies.append(tech.text.strip())
+        if optionalTech is not None:
+            for optTech in optionalTech:
+                optTechnologies.append(optTech.text.strip())
+
     print(technologies)
+    print(optTechnologies)
+
+
 #Soup setup
 URL = "https://www.pracuj.pl/praca/warszawa;wp?rd=0&cc=5015%2C5016"
 page = requests.get(URL)
@@ -50,6 +59,8 @@ for job in jobOfferts:
     link = job.find("a",class_="listing_n194fgoq")
     levelSpec = str
     technologies = []
+    optTechnologies = []
+
     linkURL = link["href"]
     if salary is None:
         salary = "No data about salary"
@@ -59,7 +70,7 @@ for job in jobOfferts:
             salary = makeSalaryUnify(salary)
 
     #collection additional data
-    getAdditionalData(linkURL,levelSpec, technologies)
+    getAdditionalData(linkURL,levelSpec, technologies,optTechnologies)
 
     jobsList.append(Job(position, company, salary, levelSpec, technologies))
     print(position + "\n" + company + "\n" + salary + "\n")
