@@ -1,4 +1,7 @@
-Position,Used Technologies
-Frontend Developer (Angular),"JavaScript, HTML, CSS, Angular"
-"Java Developer (Spring, Maven, JavaScript)","Java, Spring Framework, Maven, JavaScript"
-Fullstack CMS Developer,"Contentful CMS, WordPress, Java, React.js, NextJS, AWS, Kubernetes"
+Position,Used Technologies,Optional Technologies
+Frontend Developer (Angular),"JavaScript, HTML, CSS, Angular","React.js, C#, Python"
+"Java Developer (Spring, Maven, JavaScript)","Java, Spring Framework, Maven, JavaScript",
+Fullstack CMS Developer,"Contentful CMS, WordPress, Java, React.js, NextJS, AWS, Kubernetes",
+"Fullstack (PHP - Symfony, TypeScript) Developer","PHP, TypeScript, Git","HTML, CSS"
+Mid Flutter Mobile Developer,"Flutter, Git",
+Angular Frontend Developer,"Angular, Git, JavaScript, HTML",

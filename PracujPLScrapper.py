@@ -27,57 +27,69 @@ def getAdditionalData(link, levelSpec,technologies,optTechnologies):
         print(levelSpec + "\n")
 
     #TODO: What if there is only optional tech?
-    techBox = soup.find("div", attrs={"data-scroll-id":"technologies-1"})
+    techBox = soup.find("div", attrs={"data-scroll-id": "technologies-1"})
     if techBox is not None:
-        expectedTech = techBox.find_all("li",class_="offer-viewjJiyAa offer-vieweKR6vg")
-        optionalTech = techBox.find_all("li", class_="offer-vieweKR6vg")
+        expectedTechSection = techBox.find("div", attrs={"data-scroll-id": "technologies-expected-1"})
+        optionalTechSection = techBox.find("div", attrs={"data-scroll-id": "technologies-optional-1"})
+
+        if expectedTechSection is not None:
+            expectedTech = expectedTechSection.find_all("li", class_="offer-vieweKR6vg")
+        else: expectedTech = []
+
+        if optionalTechSection is not None:
+            optionalTech = optionalTechSection.find_all("li", class_="offer-vieweKR6vg")
+        else: optionalTech = []
+
         for tech in expectedTech:
             technologies.append(tech.text.strip())
-        if optionalTech is not None:
-            for optTech in optionalTech:
-                optTechnologies.append(optTech.text.strip())
-
+        for optTech in optionalTech:
+            optTechnologies.append(optTech.text.strip())
     print(technologies)
     print(optTechnologies)
+def pageScrapper(rootLink,jobList):
+    # Soup setup
+    URL = rootLink
+    page = requests.get(URL)
+    soup = BeautifulSoup(page.content, "html.parser")
+
+    # HTML search
+    results = soup.find("div", attrs={"data-test": "section-offers"})
+    jobOfferts = results.find_all("div", class_="listing_c1dc6in8")
 
 
-#Soup setup
-URL = "https://www.pracuj.pl/praca/warszawa;wp?rd=0&cc=5015%2C5016"
-page = requests.get(URL)
-soup = BeautifulSoup(page.content, "html.parser")
+    i = 0
+    for job in jobOfferts:
+        position = job.find("h2", attrs={"data-test": "offer-title"}).text.strip()
+        company = job.find("h4", class_="listing_eiims5z size-caption listing_t1rst47b").text.strip()
+        salary = job.find("span", attrs={"data-test": "offer-salary"})
+        link = job.find("a", class_="listing_n194fgoq")
+        levelSpec = str
+        technologies = []
+        optTechnologies = []
 
-#HTML search
-results = soup.find("div", attrs={"data-test": "section-offers"})
-jobOfferts =  results.find_all("div",class_ = "listing_c1dc6in8")
+        linkURL = link["href"]
+        if salary is None:
+            salary = "No data about salary"
+        else:
+            salary = salary.text
+            if salary.endswith("godz."):
+                salary = makeSalaryUnify(salary)
+
+        # collection additional data
+        getAdditionalData(linkURL, levelSpec, technologies, optTechnologies)
+
+        jobsList.append(Job(position, company, salary, levelSpec, technologies, optTechnologies))
+        print(position + "\n" + company + "\n" + salary + "\n")
+        i = i + 1
+        if (i == 3): break
+
+    for job in jobsList:
+        print(job)
 
 jobsList = []
-i =0
-for job in jobOfferts:
-    position = job.find("h2",attrs={"data-test":"offer-title"}).text.strip()
-    company = job.find("h4",class_="listing_eiims5z size-caption listing_t1rst47b").text.strip()
-    salary = job.find("span", attrs={"data-test":"offer-salary"})
-    link = job.find("a",class_="listing_n194fgoq")
-    levelSpec = str
-    technologies = []
-    optTechnologies = []
 
-    linkURL = link["href"]
-    if salary is None:
-        salary = "No data about salary"
-    else:
-        salary = salary.text
-        if salary.endswith("godz."):
-            salary = makeSalaryUnify(salary)
-
-    #collection additional data
-    getAdditionalData(linkURL,levelSpec, technologies,optTechnologies)
-
-    jobsList.append(Job(position, company, salary, levelSpec, technologies))
-    print(position + "\n" + company + "\n" + salary + "\n")
-    i = i+1
-    if(i==3):break
-
-for job in jobsList:
-    print(job)
-
+#TODO: Multiple ideas to start and iterate pages!
+for i in range(1,3):
+    link = "https://www.pracuj.pl/praca?cc=5015%2C5016&pn=" + str(i)
+    pageScrapper(link,jobsList)
 CSVWritter.basicWrite(jobsList)
