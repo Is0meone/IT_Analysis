@@ -23,6 +23,7 @@ def getAdditionalData(link, levelSpec,technologies,optTechnologies):
     soup = BeautifulSoup(internalPage.content, "html.parser")
     levelSpecQ = soup.find("div", attrs={"data-scroll-id":"position-levels"})
     if levelSpecQ is not None:
+        # TODO: Make it realize that it is the same levelSpec and do not return its value by func
         levelSpec = levelSpecQ.text
         print(levelSpec + "\n")
 
@@ -46,6 +47,7 @@ def getAdditionalData(link, levelSpec,technologies,optTechnologies):
             optTechnologies.append(optTech.text.strip())
     print(technologies)
     print(optTechnologies)
+    return levelSpec
 def pageScrapper(rootLink,jobList):
     # Soup setup
     URL = rootLink
@@ -63,7 +65,7 @@ def pageScrapper(rootLink,jobList):
         company = job.find("h4", class_="listing_eiims5z size-caption listing_t1rst47b").text.strip()
         salary = job.find("span", attrs={"data-test": "offer-salary"})
         link = job.find("a", class_="listing_n194fgoq")
-        levelSpec = str
+        levelSpec = ""
         technologies = []
         optTechnologies = []
 
@@ -75,12 +77,13 @@ def pageScrapper(rootLink,jobList):
             if salary.endswith("godz."):
                 salary = makeSalaryUnify(salary)
 
-        # collection additional data
-        getAdditionalData(linkURL, levelSpec, technologies, optTechnologies)
+        # collection additional data very primitive return of levelSpec!!!
+        levelSpec = getAdditionalData(linkURL, levelSpec, technologies, optTechnologies)
 
         jobsList.append(Job(position, company, salary, levelSpec, technologies, optTechnologies))
         print(position + "\n" + company + "\n" + salary + "\n")
         i = i + 1
+        #Here to scrape whole page
         if (i == 3): break
 
     for job in jobsList:
@@ -88,8 +91,8 @@ def pageScrapper(rootLink,jobList):
 
 jobsList = []
 
-#TODO: Multiple ideas to start and iterate pages!
-for i in range(1,3):
+#TODO: Multiple ideas to start and iterate pages! For now just couple pages
+for i in range(1,6):
     link = "https://www.pracuj.pl/praca?cc=5015%2C5016&pn=" + str(i)
     pageScrapper(link,jobsList)
 CSVWritter.basicWrite(jobsList)

@@ -1,7 +1,16 @@
-Position,Used Technologies,Optional Technologies
-Frontend Developer (Angular),"JavaScript, HTML, CSS, Angular","React.js, C#, Python"
-"Java Developer (Spring, Maven, JavaScript)","Java, Spring Framework, Maven, JavaScript",
-Fullstack CMS Developer,"Contentful CMS, WordPress, Java, React.js, NextJS, AWS, Kubernetes",
-"Fullstack (PHP - Symfony, TypeScript) Developer","PHP, TypeScript, Git","HTML, CSS"
-Mid Flutter Mobile Developer,"Flutter, Git",
-Angular Frontend Developer,"Angular, Git, JavaScript, HTML",
+Position,Level,Used Technologies,Optional Technologies
+Frontend Developer (Angular),senior specialist (Senior),"JavaScript, HTML, CSS, Angular","React.js, C#, Python"
+"Java Developer (Spring, Maven, JavaScript)",starszy specjalista (Senior),"Java, Spring Framework, Maven, JavaScript",
+Fullstack CMS Developer,"specjalista (Mid / Regular), starszy specjalista (Senior)","Contentful CMS, WordPress, Java, React.js, NextJS, AWS, Kubernetes",
+"Fullstack (PHP - Symfony, TypeScript) Developer",specjalista (Mid / Regular),"PHP, TypeScript, Git","HTML, CSS"
+Mid Flutter Mobile Developer,"specjalista (Mid / Regular), starszy specjalista (Senior)","Flutter, Git",
+Angular Frontend Developer,specjalista (Mid / Regular),"Angular, Git, JavaScript, HTML",
+Regular Java Developer,specjalista (Mid / Regular),"Java, Spring Framework, PostgreSQL, MongoDB, Docker","Kafka, OpenShift"
+Senior Frontend / Fullstack Developer,starszy specjalista (Senior),"Angular, TypeScript, Java, Spring Framework, IntelliJ, Git, Docker, OpenShift",
+Senior Fullstack Developer (Java+Angular),starszy specjalista (Senior),"Java, Spring Framework, Angular, PostgreSQL, MongoDB, Docker","Kafka, OpenShift"
+Angular Developer (+ Java),specjalista (Mid / Regular),"Angular, Java, JavaScript, TypeScript, HTML, CSS",
+Młodszy Specjalista ds. Monitorowania Usług IT,młodszy specjalista (Junior),,
+Treasury Specialist,specialist (Mid / Regular),,
+Java Developer,"specjalista (Mid / Regular), starszy specjalista (Senior)","Java, Spring Boot, Git, Docker",Node.js
+Corporate Architect,"senior specialist (Senior), expert","AWS, Salesforce, Vlocity, Matrixx, Java, Apex, LWC, Git, Jira, Confluence",
+QA Test Lead - Team Lead,manager / supervisor,"Java, Selenium, Jira, Mantis, Telco",

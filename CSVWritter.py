@@ -15,7 +15,7 @@ def basicWrite(jobsList):
     with open(csv_filename, 'w', encoding='utf-8') as csv_file:
         csv_writer = csv.writer(csv_file)
 
-        csv_writer.writerow(["Position", "Used Technologies","Optional Technologies"])
+        csv_writer.writerow(["Position","Level", "Used Technologies","Optional Technologies"])
 
         for job in jobsList:
-            csv_writer.writerow([job.position,', '.join(job.usedTechnologies),', '.join(job.optionalTechnologies)])
+            csv_writer.writerow([job.position,job.level,', '.join(job.usedTechnologies),', '.join(job.optionalTechnologies)])
