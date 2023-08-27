@@ -18,12 +18,30 @@ def extractLinks(URL):
     #print(resultsBox.prettify())
     linkArray = []
     # Przetworzenie znalezionych linków
-    for link in results:
+    for index in range(3, len(results)):
+        link = results[index]
         href = link.get("href")
-        hrefFinal = "https://justjoin.it"+str(href)
+        hrefFinal = "https://justjoin.it" + str(href)
         linkArray.append(hrefFinal)
+
     print(linkArray)
     return linkArray
+def getInfo(link):
+    soup = BeautifulSoup(getHTML(link), "html.parser")
+    resultsBox = soup.find("div",class_="css-1ikoimk")
+    print(resultsBox.text)
+    technologyBox = resultsBox.find_all("div", class_="css-1q98d5e")
+    for field in technologyBox:
+        tech = field.find("div", class_="css-1eroaug").text
+        level = field.find("div", class_="css-19mz16e").text
+        print(tech + " " + level)
+
 
 URL = "https://justjoin.it/?tab=with-salary"
 linkBox = extractLinks(URL)
+
+for link in linkBox:
+    print(link)
+    getInfo(link)
+    break
+
