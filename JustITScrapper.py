@@ -1,6 +1,9 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
 
+import CSVWritter
+
+
 def getHTML(URL):
     driver = webdriver.Chrome()
     driver.get(URL)
@@ -33,12 +36,10 @@ def getInfo(link):
     jobInfo = []
 
     soup = BeautifulSoup(getHTML(link), "html.parser")
-    print(soup.prettify())
     position = soup.find("div",class_="css-1id4k1").text
     company = soup.find("a",class_="css-l4opor").text
     experience = soup.find_all("div",class_="css-1ji7bvd")[1].text
     salaryInfo = soup.find("div",class_="css-1wla3xl").text
-    print(salaryInfo)
     salary = cleanSalary(salaryInfo)
 
     jobInfo.append(position)
@@ -62,10 +63,10 @@ linkBox = extractLinks(URL)
 
 scrappedInfo =[]
 for link in linkBox:
-    print(link)
     scrappedInfo.append(getInfo(link))
-    break
 print(scrappedInfo)
+CSVWritter.justITWritter(scrappedInfo)
+print(len(linkBox))
 
 # TODO: przewijanie strony
 #       ustandaryzowac writter

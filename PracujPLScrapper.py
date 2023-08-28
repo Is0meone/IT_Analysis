@@ -95,4 +95,4 @@ jobsList = []
 for i in range(1,6):
     link = "https://www.pracuj.pl/praca?cc=5015%2C5016&pn=" + str(i)
     pageScrapper(link,jobsList)
-CSVWritter.basicWrite(jobsList)
+CSVWritter.write(jobsList)
