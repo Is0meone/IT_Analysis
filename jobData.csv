@@ -1,0 +1,42 @@
+Position,Company,Experience,Salary,Used Technologies,Optional Technologies
+SOC Specialist (level II),ONWELO Sp. z o.o.,,15000 26880,,
+Global Contract Logistics Information Systems Support Analyst,Kuehne + Nagel Sp. z o.o.,Mid,-,,"SQL, WMS"
+Delivery Manager,KMD Poland Sp. z o.o.,Mid,-,,
+Service Desk Administrator with Turkish & Polish,Wipro IT Services,Mid,-,,
+Programista / Programistka C++,Halo System Sp. z o.o.,Mid,10000 16000,"Linux, SQL, C++",
+Frontend Developer (Angular),EWL GROUP,Senior,-,"Angular, TypeScript, HTML, CSS, Bootstrap, JavaScript",
+Presales / Architekt Rozwiązań Cyberbezpieczeństwa,Netia,,-,,
+Presale Solution Architect,INFOGAIN TECHNOLOGIES SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,Mid,24000 30000,,
+React Frontend,INFOGAIN TECHNOLOGIES SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,Mid,21000 31000,JavaScript,
+Tester Automatyzujący,LSI Software S.A.,Mid,-,SQL,
+Administrator IT,AGATA Spółka Akcyjna,Mid,-,,
+Product Consultant - Oracle EPM,HEINEKEN Global Shared Services,Mid,-,"Oracle EPM, PCMCS, FCCS","SAP FI/CO, Oracle"
+Senior Java Developer,ITFS sp. z o.o.,Mid,32000 34400,"Java, Hibernate, SQL, Maven, Spring Boot",
+.NET Developer,GRUPA NEUCA,Mid,-,.NET,
+Dynatrace Engineer (Splunk),ITDS Polska Sp. z o.o.,Senior,37800 42000,"Splunk Core, Nagios, SCOM, Prometheus, Telegraf, Zabbix, Grafana, AppDynamics, MySQL, MS SQL, Oracle, Sybase, Dynatrace, PowerShell, Python, Perl, GitHub, Jenkins, Azure DevOps, Apache, Web-logic, Tomcat, JBoss, Node.js",
+Sharepoint Developer,ITDS,mid,24000 26000,"{'English': 'advanced', 'C#': 'regular', 'React': 'regular', 'Microsoft Azure Cloud': 'regular', 'TypeScript': 'regular', '.Net': 'regular', 'SharePoint': 'regular', 'SQL': 'regular'}",-
+Technical Support Specialist,Perfect Gym Solutions,junior,5000 5500,{'Windows': 'regular'},-
+Senior Front-End JavaScript Developer,RITS Professional Services,senior,28000 35000,"{'JavaScript': 'master', 'Angular': 'advanced', 'TypeScript': 'regular', 'RxJS': 'regular', 'HTML5 / CSS3': 'regular', 'SASS': 'regular'}",-
+UX/UI Designer,BliskoPracy,senior,-,"{'UX': 'advanced', 'Design': 'regular', 'Figma': 'regular'}",-
+Cloud Application Administrator,Bosch Polska,mid,-,"{'Python': 'advanced', 'Bash': 'advanced', 'Kubernetes': 'advanced', 'OpenShift': 'advanced', 'Docker': 'advanced', 'REST API': 'advanced', 'Linux': 'regular', 'PostgreSQL': 'nice to have', 'MySQL': 'nice to have'}",-
+Test Lead,RITS Professional Services,senior,20800 25600,"{'Solution Manager': 'regular', 'JIRA': 'regular', 'Confluence': 'regular', 'SharePoint': 'regular', 'MS Project': 'regular', 'Office Suite': 'regular'}",-
+Power Platform Developer,Avanade Poland,mid,-,"{'Power Platform': 'advanced', 'SharePoint': 'regular', 'Microsoft Azure': 'junior', 'Web Development': 'junior', 'Power BI': 'nice to have', 'C#/JS/Python': 'nice to have'}",-
+Developer/Konfigurator Ferryt,7N,mid,13440 16800,"{'BPM': 'regular', 'Ferryt': 'regular', 'UML': 'regular', 'BPMN': 'regular', 'SQL': 'junior', 'T-SQL': 'nice to have', 'HTML5 / CSS3': 'nice to have'}",-
+Head of AI,XTB,senior,30000 40000,"{'AI': 'master', 'Machine Learning': 'master', 'Python': 'master', 'Java': 'master', 'People Management': 'master', 'English': 'advanced'}",-
+DEVOPS/DATA Engineer,PAYBACK,senior,-,"{'DevOps': 'advanced', 'English': 'advanced', 'ETL': 'regular', 'SQL': 'regular', 'Oracle': 'regular', 'Mass data': 'regular', 'Agile': 'regular', 'Kubernetes': 'nice to have', 'OpenShift': 'nice to have', 'MapR Cluster': 'nice to have'}",-
+Specjalista/-ka ds. EZD,NASK,mid,6000 12000,"{'EZD': 'regular', 'XML': 'regular', 'JSON': 'regular', 'REST': 'regular', 'Kubernetes': 'junior', 'Linux': 'nice to have'}",-
+Team Leader for Handsontable,Handsoncode Sp. z o.o.,senior,25000 35000,"{'Management': 'master', 'TypeScript': 'advanced', 'JavaScript': 'advanced'}",-
+Production Support Engineer,HSBC Service Delivery,mid,12000 15000,"{'SQL': 'regular', 'AWS': 'regular', 'k8': 'regular', 'Splunk': 'regular', 'AppDynamics': 'regular'}",-
+Mid Backend PHP Developer,Wealthon S.A.,mid,14000 17000,"{'Laravel': 'advanced', 'Backpack': 'advanced', 'PHP 8': 'advanced', 'REST API': 'regular', 'PostreSQL': 'regular', 'GitLab': 'regular', 'JIRA': 'regular', 'Docker': 'regular', 'CRUD': 'regular', 'PHPUnit': 'regular'}",-
+Android Developer (Retail),BlueSoft,mid,15000 21000,"{'Android': 'regular', 'MVVM': 'regular'}",-
+Senior QA Automation Engineer (f/m/d),SAP Fioneer ESG Solutions GmbH,senior,18000 26000,"{'Test Automation': 'advanced', 'Manual Testing': 'regular', 'TypeScript': 'regular', 'SQL': 'regular', 'API Testing': 'regular'}",-
+Consultant/Developer - Standard Platform,SimCorp,mid,-,"{'Operations': 'advanced', 'XML': 'regular', 'SQL': 'regular', 'XSLT': 'regular', 'Testing': 'nice to have', 'Software Development': 'nice to have', 'JSON': 'nice to have'}",-
+Konsultant Systemu ERP,KALASOFT,junior,-,"{'Java': 'nice to have', 'GitLab': 'nice to have'}",-
+Konsultant Systemu ERP,KALASOFT,junior,-,"{'Java': 'nice to have', 'GitLab': 'nice to have'}",-
+Architekt Rozwiązań IT,ERGO Hestia,mid,-,"{'Architecture': 'regular', 'Azure': 'regular', 'Microservice Architecture': 'regular', 'Enterprise Architect': 'regular', 'Confluence': 'regular', 'JIRA': 'regular'}",-
+Programista SQL (systemy WMS),Asseco Business Solutions,mid,-,{'MS SQL': 'regular'},-
+Cloud Data Engineer,Uptime Solutions,mid,-,"{'C#': 'advanced', 'SQL': 'advanced', 'ETL': 'advanced', 'Data Engineering': 'advanced', 'Microsoft Azure': 'regular'}",-
+Workforce Planning Consultant,Shell,senior,-,"{'Analytical Thinking': 'master', 'Data': 'advanced', 'PBI': 'junior'}",-
+Senior UX Designer,Motorola Solutions,senior,-,{'Figma': 'master'},-
+Kierownik Projektów IT,Totalizator Sportowy,senior,-,"{'Microsoft 365': 'advanced', 'MS Project': 'advanced'}",-
+Developer embedded C/C++/Zephyr,Abakus,mid,14000 22000,"{'C/C++': 'master', 'Embedded': 'advanced', 'Zephyr': 'regular', 'Git': 'regular', 'ARM Cortex': 'regular'}",-
