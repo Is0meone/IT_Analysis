@@ -12,7 +12,7 @@ def getHTML(URL):
     driver.quit()
     return page_source
 def cleanSalary(salary):
-    if salary =="Undisclosed Salary - Permanent":
+    if salary[0:11] =="Undisclosed":
         return "-"
     else:
         salaryParts = salary.split(' ')

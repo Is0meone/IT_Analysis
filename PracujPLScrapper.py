@@ -12,7 +12,7 @@ def makeSalaryUnify(salaryForHour):
         upperCase = upperCase[:-3]
         lowerCase = int(lowerCase)*160
         upperCase = int(upperCase)*160
-        lowerCase = str(lowerCase) + "-"
+        lowerCase = str(lowerCase) + " "
     else:
         lowerCase = ""
         upperCase = upperCase[:-3]
@@ -25,7 +25,13 @@ def getAdditionalData(link, levelSpec,technologies,optTechnologies):
     if levelSpecQ is not None:
         # TODO: Make it realize that it is the same levelSpec and do not return its value by func
         levelSpec = levelSpecQ.text
-        print(levelSpec + "\n")
+        if "Mid" in levelSpec:
+            levelSpec = "Mid"
+        elif "Senior" in levelSpec:
+            levelSpec = "Senior"
+        elif "Junior" in levelSpec:
+            levelSpec = "Junior"
+
 
     #TODO: What if there is only optional tech?
     techBox = soup.find("div", attrs={"data-scroll-id": "technologies-1"})
@@ -71,17 +77,20 @@ def pageScrapper(rootLink,jobList):
 
         linkURL = link["href"]
         if salary is None:
-            salary = "No data about salary"
+            salaryFinal = "-"
         else:
             salary = salary.text
             if salary.endswith("godz."):
-                salary = makeSalaryUnify(salary)
+                salaryFinal = makeSalaryUnify(salary)
+            else:
+                salaryFinal = ''.join(salary.split(' ')[0:3]).replace("–"," ")
+                print("Kurwa salaarty hest "+ salary+"\n")
 
         # collection additional data very primitive return of levelSpec!!!
         levelSpec = getAdditionalData(linkURL, levelSpec, technologies, optTechnologies)
 
-        jobsList.append(Job(position, company, salary, levelSpec, technologies, optTechnologies))
-        print(position + "\n" + company + "\n" + salary + "\n")
+        jobsList.append(Job(position, company, salaryFinal, levelSpec, technologies, optTechnologies))
+        print(position + "\n" + company + "\n" + salaryFinal + "\n")
         i = i + 1
         #Here to scrape whole page
         if (i == 3): break
