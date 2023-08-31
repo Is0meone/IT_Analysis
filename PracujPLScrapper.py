@@ -93,7 +93,7 @@ def pageScrapper(rootLink,jobList):
         print(position + "\n" + company + "\n" + salaryFinal + "\n")
         i = i + 1
         #Here to scrape whole page
-        if (i == 3): break
+        #if (i == 3): break
 
     for job in jobsList:
         print(job)

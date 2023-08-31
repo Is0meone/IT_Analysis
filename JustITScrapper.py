@@ -33,7 +33,7 @@ def extractLinks(URL):
 
     linkArray = []
 
-    for i in range(0, 2):
+    for i in range(0, 6):
         iframe = driver.find_element(By.CLASS_NAME, "jss244")
         scroll_origin = ScrollOrigin.from_element(iframe)
         ActionChains(driver) \

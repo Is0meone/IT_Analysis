@@ -1,66 +1,250 @@
-Position,Company,Experience,Salary,Used Technologies,Optional Technologies
-SOC Specialist (level II),ONWELO Sp. z o.o.,,15000 26880,,
-Global Contract Logistics Information Systems Support Analyst,Kuehne + Nagel Sp. z o.o.,Mid,-,,"SQL, WMS"
-Delivery Manager,KMD Poland Sp. z o.o.,Mid,-,,
-Service Desk Administrator with Turkish & Polish,Wipro IT Services,Mid,-,,
-Programista / Programistka C++,Halo System Sp. z o.o.,Mid,10000 16000,"Linux, SQL, C++",
-Frontend Developer (Angular),EWL GROUP,Senior,-,"Angular, TypeScript, HTML, CSS, Bootstrap, JavaScript",
-Presales / Architekt Rozwiązań Cyberbezpieczeństwa,Netia,,-,,
-Presale Solution Architect,INFOGAIN TECHNOLOGIES SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,Mid,24000 30000,,
-React Frontend,INFOGAIN TECHNOLOGIES SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,Mid,21000 31000,JavaScript,
-Tester Automatyzujący,LSI Software S.A.,Mid,-,SQL,
-Administrator IT,AGATA Spółka Akcyjna,Mid,-,,
-Product Consultant - Oracle EPM,HEINEKEN Global Shared Services,Mid,-,"Oracle EPM, PCMCS, FCCS","SAP FI/CO, Oracle"
-Senior Java Developer,ITFS sp. z o.o.,Mid,32000 34400,"Java, Hibernate, SQL, Maven, Spring Boot",
-.NET Developer,GRUPA NEUCA,Mid,-,.NET,
-Dynatrace Engineer (Splunk),ITDS Polska Sp. z o.o.,Senior,37800 42000,"Splunk Core, Nagios, SCOM, Prometheus, Telegraf, Zabbix, Grafana, AppDynamics, MySQL, MS SQL, Oracle, Sybase, Dynatrace, PowerShell, Python, Perl, GitHub, Jenkins, Azure DevOps, Apache, Web-logic, Tomcat, JBoss, Node.js",
-Sharepoint Developer,ITDS,mid,24000 26000,"{'English': 'advanced', 'C#': 'regular', 'React': 'regular', 'Microsoft Azure Cloud': 'regular', 'TypeScript': 'regular', '.Net': 'regular', 'SharePoint': 'regular', 'SQL': 'regular'}",-
-Technical Support Specialist,Perfect Gym Solutions,junior,5000 5500,{'Windows': 'regular'},-
-Senior Front-End JavaScript Developer,RITS Professional Services,senior,28000 35000,"{'JavaScript': 'master', 'Angular': 'advanced', 'TypeScript': 'regular', 'RxJS': 'regular', 'HTML5 / CSS3': 'regular', 'SASS': 'regular'}",-
-UX/UI Designer,BliskoPracy,senior,-,"{'UX': 'advanced', 'Design': 'regular', 'Figma': 'regular'}",-
-Cloud Application Administrator,Bosch Polska,mid,-,"{'Python': 'advanced', 'Bash': 'advanced', 'Kubernetes': 'advanced', 'OpenShift': 'advanced', 'Docker': 'advanced', 'REST API': 'advanced', 'Linux': 'regular', 'PostgreSQL': 'nice to have', 'MySQL': 'nice to have'}",-
-Test Lead,RITS Professional Services,senior,20800 25600,"{'Solution Manager': 'regular', 'JIRA': 'regular', 'Confluence': 'regular', 'SharePoint': 'regular', 'MS Project': 'regular', 'Office Suite': 'regular'}",-
-Power Platform Developer,Avanade Poland,mid,-,"{'Power Platform': 'advanced', 'SharePoint': 'regular', 'Microsoft Azure': 'junior', 'Web Development': 'junior', 'Power BI': 'nice to have', 'C#/JS/Python': 'nice to have'}",-
-Developer/Konfigurator Ferryt,7N,mid,13440 16800,"{'BPM': 'regular', 'Ferryt': 'regular', 'UML': 'regular', 'BPMN': 'regular', 'SQL': 'junior', 'T-SQL': 'nice to have', 'HTML5 / CSS3': 'nice to have'}",-
-Head of AI,XTB,senior,30000 40000,"{'AI': 'master', 'Machine Learning': 'master', 'Python': 'master', 'Java': 'master', 'People Management': 'master', 'English': 'advanced'}",-
-DEVOPS/DATA Engineer,PAYBACK,senior,-,"{'DevOps': 'advanced', 'English': 'advanced', 'ETL': 'regular', 'SQL': 'regular', 'Oracle': 'regular', 'Mass data': 'regular', 'Agile': 'regular', 'Kubernetes': 'nice to have', 'OpenShift': 'nice to have', 'MapR Cluster': 'nice to have'}",-
-Specjalista/-ka ds. EZD,NASK,mid,6000 12000,"{'EZD': 'regular', 'XML': 'regular', 'JSON': 'regular', 'REST': 'regular', 'Kubernetes': 'junior', 'Linux': 'nice to have'}",-
-Team Leader for Handsontable,Handsoncode Sp. z o.o.,senior,25000 35000,"{'Management': 'master', 'TypeScript': 'advanced', 'JavaScript': 'advanced'}",-
-Production Support Engineer,HSBC Service Delivery,mid,12000 15000,"{'SQL': 'regular', 'AWS': 'regular', 'k8': 'regular', 'Splunk': 'regular', 'AppDynamics': 'regular'}",-
-Mid Backend PHP Developer,Wealthon S.A.,mid,14000 17000,"{'Laravel': 'advanced', 'Backpack': 'advanced', 'PHP 8': 'advanced', 'REST API': 'regular', 'PostreSQL': 'regular', 'GitLab': 'regular', 'JIRA': 'regular', 'Docker': 'regular', 'CRUD': 'regular', 'PHPUnit': 'regular'}",-
-Android Developer (Retail),BlueSoft,mid,15000 21000,"{'Android': 'regular', 'MVVM': 'regular'}",-
-Senior QA Automation Engineer (f/m/d),SAP Fioneer ESG Solutions GmbH,senior,18000 26000,"{'Test Automation': 'advanced', 'Manual Testing': 'regular', 'TypeScript': 'regular', 'SQL': 'regular', 'API Testing': 'regular'}",-
-Consultant/Developer - Standard Platform,SimCorp,mid,-,"{'Operations': 'advanced', 'XML': 'regular', 'SQL': 'regular', 'XSLT': 'regular', 'Testing': 'nice to have', 'Software Development': 'nice to have', 'JSON': 'nice to have'}",-
-Konsultant Systemu ERP,KALASOFT,junior,-,"{'Java': 'nice to have', 'GitLab': 'nice to have'}",-
-Konsultant Systemu ERP,KALASOFT,junior,-,"{'Java': 'nice to have', 'GitLab': 'nice to have'}",-
-Architekt Rozwiązań IT,ERGO Hestia,mid,-,"{'Architecture': 'regular', 'Azure': 'regular', 'Microservice Architecture': 'regular', 'Enterprise Architect': 'regular', 'Confluence': 'regular', 'JIRA': 'regular'}",-
-Programista SQL (systemy WMS),Asseco Business Solutions,mid,-,{'MS SQL': 'regular'},-
-Cloud Data Engineer,Uptime Solutions,mid,-,"{'C#': 'advanced', 'SQL': 'advanced', 'ETL': 'advanced', 'Data Engineering': 'advanced', 'Microsoft Azure': 'regular'}",-
-Workforce Planning Consultant,Shell,senior,-,"{'Analytical Thinking': 'master', 'Data': 'advanced', 'PBI': 'junior'}",-
-Senior UX Designer,Motorola Solutions,senior,-,{'Figma': 'master'},-
-Kierownik Projektów IT,Totalizator Sportowy,senior,-,"{'Microsoft 365': 'advanced', 'MS Project': 'advanced'}",-
-Developer embedded C/C++/Zephyr,Abakus,mid,14000 22000,"{'C/C++': 'master', 'Embedded': 'advanced', 'Zephyr': 'regular', 'Git': 'regular', 'ARM Cortex': 'regular'}",-
-Embedded Software Engineer,Fluke Corportaion,mid,13000 18000,"{'C': 'regular', 'C++': 'regular', 'Linux': 'regular', 'SVN': 'regular', 'Yocto': 'nice to have', 'Qt': 'nice to have'}",-
-Azure Platform Engineer (AI Department),Procter & Gamble,mid,-,"{'Microsoft Azure': 'advanced', 'Python': 'advanced', 'DevOps': 'regular', 'CI/CD': 'regular', 'GitHub': 'regular'}",-
-.NET Developer,UN7,mid,20000 28000,{'.Net': 'advanced'},-
-Spec. Projektant Robotyzacji Procesów,Credit Agricole Bank Polska S.A.,mid,-,"{'C#': 'regular', 'VB.Net': 'regular', 'Java': 'regular', 'VBA': 'regular'}",-
-HT Functional Consultant with ERP Industry Solutions all levels,Accenture,mid,-,"{'English': 'master', 'ERP': 'advanced', 'Problem Solving': 'advanced', 'Communication Skills': 'advanced', 'Analytical Thinking': 'advanced'}",-
-Cloud Access Technology Consultant all levels,Accenture,mid,-,"{'JavaScript': 'master', 'Docker': 'advanced', 'SQL': 'advanced', 'Java/.NET': 'regular', 'DevOps': 'regular', 'IAM/PAM': 'junior', 'Linux': 'nice to have', 'Oracle SQL': 'nice to have'}",-
-XR Developer,Accenture,mid,-,"{'C#': 'master', 'Unity': 'master', 'VR Tools': 'advanced', 'CI/CD': 'regular'}",-
-Fullstack .NET/Angular Developer,Accenture,senior,-,"{'C#': 'master', '.Net': 'master', 'Angular': 'master', 'Entity Framework': 'advanced', 'SQL': 'advanced', 'JS': 'regular'}",-
-Technology M&A Consultant,Accenture,mid,-,"{'Merger&Acquistion': 'advanced', 'Enterprise Architect': 'regular', 'Architecture': 'regular', 'IT Infrastructure': 'regular', 'PM': 'regular', 'Analytics': 'regular', 'CRM/ERP': 'junior', 'Agile': 'junior'}",-
-Data Visualization Consultant all levels,Accenture,mid,-,"{'Data': 'regular', 'Power BI': 'regular', 'SQL': 'junior', 'QlikSense': 'junior', 'Tableau': 'junior', 'RPA': 'nice to have', 'SAP': 'nice to have', 'Scala': 'nice to have', 'Java': 'nice to have', 'Python': 'nice to have'}",-
-Data Transformation Consultant,Accenture,mid,13000 25000,"{'SQL': 'advanced', 'Python': 'advanced', 'PySpark': 'advanced', 'Apache Spark': 'regular', 'Databricks': 'regular', 'Palantir Foundry': 'regular', 'JIRA': 'junior', 'Confluence': 'junior', 'Git': 'junior', 'Docker': 'junior'}",-
-Women in IT- Cloud DW Platform Developer,Orsted,junior,-,{'DW': 'junior'},-
-Cloud Advisory Consultant all levels,Accenture,mid,-,"{'English': 'master', 'Problem Solving': 'advanced', 'Cloud': 'regular', 'Cloud DevOps': 'regular', 'Information Security': 'nice to have'}",-
-Senior DevOps Engineer (Azure),GetInData | Part of Xebia,senior,25200 31080,"{'Azure': 'advanced', 'Kubernetes': 'advanced', 'Python': 'advanced', 'Terraform': 'regular', 'Gitlab CI': 'regular', 'GitHub Actions': 'regular', 'Azure DevOps': 'regular', 'Databricks': 'nice to have'}",-
-DevOps Engineer Working Student,Nokia,junior,-,"{'AI': 'nice to have', 'Data Science': 'nice to have', 'Machine Learning': 'nice to have', 'Python': 'nice to have', 'Java': 'nice to have', 'C++': 'nice to have', 'Google Cloud': 'nice to have', 'GitHub': 'nice to have'}",-
-"Working Student, Full-stack Developer",Nokia,junior,-,"{'Docker': 'nice to have', 'Kubernetes': 'nice to have', 'JavaScript': 'nice to have', 'Python': 'nice to have', 'PHP': 'nice to have'}",-
-DevOps Engineer Working Student,Nokia,junior,-,"{'AI': 'nice to have', 'Data Science': 'nice to have', 'Machine Learning': 'nice to have', 'Python': 'nice to have', 'Java': 'nice to have', 'C++': 'nice to have', 'Google Cloud': 'nice to have', 'GitHub': 'nice to have'}",-
-Data Scientist,COIG S.A.,mid,-,"{'SQL': 'regular', 'Python': 'regular', 'SAS Viya': 'nice to have', 'Power BI': 'nice to have', 'SAP': 'nice to have'}",-
-Working Student Software Engineer,Nokia,junior,-,"{'Java': 'nice to have', 'DevOps': 'nice to have', 'UI': 'nice to have'}",-
-"Working Student, Full-stack Developer",Nokia,junior,-,"{'Docker': 'nice to have', 'Kubernetes': 'nice to have', 'JavaScript': 'nice to have', 'Python': 'nice to have', 'PHP': 'nice to have'}",-
-Working Student Software Engineer,Nokia,junior,-,"{'Java': 'nice to have', 'DevOps': 'nice to have', 'UI': 'nice to have'}",-
-"Working Student, Full-stack Developer",Nokia,junior,-,"{'Docker': 'nice to have', 'Kubernetes': 'nice to have', 'JavaScript': 'nice to have', 'Python': 'nice to have', 'PHP': 'nice to have'}",-
-DevOps Engineer Working Student,Nokia,junior,-,"{'AI': 'nice to have', 'Data Science': 'nice to have', 'Machine Learning': 'nice to have', 'Python': 'nice to have', 'Java': 'nice to have', 'C++': 'nice to have', 'Google Cloud': 'nice to have', 'GitHub': 'nice to have'}",-
-DevOps Engineer Working Student,Nokia,junior,-,"{'AI': 'nice to have', 'Data Science': 'nice to have', 'Machine Learning': 'nice to have', 'Python': 'nice to have', 'Java': 'nice to have', 'C++': 'nice to have', 'Google Cloud': 'nice to have', 'GitHub': 'nice to have'}",-
+Position,Company,Experience,Salary,Used Technologies,Optional TechnologiesEmbedded Software Engineer,Fluke Corportaion,mid,13000 18000,"{'C': 'regular', 'C++': 'regular', 'Linux': 'regular', 'SVN': 'regular', 'Yocto': 'nice to have', 'Qt': 'nice to have'}",-Azure Platform Engineer (AI Department),Procter & Gamble,mid,-,"{'Microsoft Azure': 'advanced', 'Python': 'advanced', 'DevOps': 'regular', 'CI/CD': 'regular', 'GitHub': 'regular'}",-.NET Developer,UN7,mid,20000 28000,{'.Net': 'advanced'},-Spec. Projektant Robotyzacji Procesów,Credit Agricole Bank Polska S.A.,mid,-,"{'C#': 'regular', 'VB.Net': 'regular', 'Java': 'regular', 'VBA': 'regular'}",-HT Functional Consultant with ERP Industry Solutions all levels,Accenture,mid,-,"{'English': 'master', 'ERP': 'advanced', 'Problem Solving': 'advanced', 'Communication Skills': 'advanced', 'Analytical Thinking': 'advanced'}",-Cloud Access Technology Consultant all levels,Accenture,mid,-,"{'JavaScript': 'master', 'Docker': 'advanced', 'SQL': 'advanced', 'Java/.NET': 'regular', 'DevOps': 'regular', 'IAM/PAM': 'junior', 'Linux': 'nice to have', 'Oracle SQL': 'nice to have'}",-XR Developer,Accenture,mid,-,"{'C#': 'master', 'Unity': 'master', 'VR Tools': 'advanced', 'CI/CD': 'regular'}",-Fullstack .NET/Angular Developer,Accenture,senior,-,"{'C#': 'master', '.Net': 'master', 'Angular': 'master', 'Entity Framework': 'advanced', 'SQL': 'advanced', 'JS': 'regular'}",-Technology M&A Consultant,Accenture,mid,-,"{'Merger&Acquistion': 'advanced', 'Enterprise Architect': 'regular', 'Architecture': 'regular', 'IT Infrastructure': 'regular', 'PM': 'regular', 'Analytics': 'regular', 'CRM/ERP': 'junior', 'Agile': 'junior'}",-Data Visualization Consultant all levels,Accenture,mid,-,"{'Data': 'regular', 'Power BI': 'regular', 'SQL': 'junior', 'QlikSense': 'junior', 'Tableau': 'junior', 'RPA': 'nice to have', 'SAP': 'nice to have', 'Scala': 'nice to have', 'Java': 'nice to have', 'Python': 'nice to have'}",-Data Transformation Consultant,Accenture,mid,13000 25000,"{'SQL': 'advanced', 'Python': 'advanced', 'PySpark': 'advanced', 'Apache Spark': 'regular', 'Databricks': 'regular', 'Palantir Foundry': 'regular', 'JIRA': 'junior', 'Confluence': 'junior', 'Git': 'junior', 'Docker': 'junior'}",-Women in IT- Cloud DW Platform Developer,Orsted,junior,-,{'DW': 'junior'},-Cloud Advisory Consultant all levels,Accenture,mid,-,"{'English': 'master', 'Problem Solving': 'advanced', 'Cloud': 'regular', 'Cloud DevOps': 'regular', 'Information Security': 'nice to have'}",-Senior DevOps Engineer (Azure),GetInData | Part of Xebia,senior,25200 31080,"{'Azure': 'advanced', 'Kubernetes': 'advanced', 'Python': 'advanced', 'Terraform': 'regular', 'Gitlab CI': 'regular', 'GitHub Actions': 'regular', 'Azure DevOps': 'regular', 'Databricks': 'nice to have'}",-DevOps Engineer Working Student,Nokia,junior,-,"{'AI': 'nice to have', 'Data Science': 'nice to have', 'Machine Learning': 'nice to have', 'Python': 'nice to have', 'Java': 'nice to have', 'C++': 'nice to have', 'Google Cloud': 'nice to have', 'GitHub': 'nice to have'}",-"Working Student, Full-stack Developer",Nokia,junior,-,"{'Docker': 'nice to have', 'Kubernetes': 'nice to have', 'JavaScript': 'nice to have', 'Python': 'nice to have', 'PHP': 'nice to have'}",-DevOps Engineer Working Student,Nokia,junior,-,"{'AI': 'nice to have', 'Data Science': 'nice to have', 'Machine Learning': 'nice to have', 'Python': 'nice to have', 'Java': 'nice to have', 'C++': 'nice to have', 'Google Cloud': 'nice to have', 'GitHub': 'nice to have'}",-Data Scientist,COIG S.A.,mid,-,"{'SQL': 'regular', 'Python': 'regular', 'SAS Viya': 'nice to have', 'Power BI': 'nice to have', 'SAP': 'nice to have'}",-Working Student Software Engineer,Nokia,junior,-,"{'Java': 'nice to have', 'DevOps': 'nice to have', 'UI': 'nice to have'}",-"Working Student, Full-stack Developer",Nokia,junior,-,"{'Docker': 'nice to have', 'Kubernetes': 'nice to have', 'JavaScript': 'nice to have', 'Python': 'nice to have', 'PHP': 'nice to have'}",-Working Student Software Engineer,Nokia,junior,-,"{'Java': 'nice to have', 'DevOps': 'nice to have', 'UI': 'nice to have'}",-"Working Student, Full-stack Developer",Nokia,junior,-,"{'Docker': 'nice to have', 'Kubernetes': 'nice to have', 'JavaScript': 'nice to have', 'Python': 'nice to have', 'PHP': 'nice to have'}",-DevOps Engineer Working Student,Nokia,junior,-,"{'AI': 'nice to have', 'Data Science': 'nice to have', 'Machine Learning': 'nice to have', 'Python': 'nice to have', 'Java': 'nice to have', 'C++': 'nice to have', 'Google Cloud': 'nice to have', 'GitHub': 'nice to have'}",-DevOps Engineer Working Student,Nokia,junior,-,"{'AI': 'nice to have', 'Data Science': 'nice to have', 'Machine Learning': 'nice to have', 'Python': 'nice to have', 'Java': 'nice to have', 'C++': 'nice to have', 'Google Cloud': 'nice to have', 'GitHub': 'nice to have'}",-Go Developer,Wirtualna Polska Media S.A. ,mid,-,"{'Go': 'advanced', 'SQL': 'advanced', 'NoSQL': 'advanced', 'TCP/IP': 'regular', 'CL': 'regular', 'Docker': 'regular', 'REST API': 'regular', 'gRPC': 'regular'}",-Backend Developer,Wirtualna Polska Media S.A. ,mid,-,"{'Golang': 'regular', 'Clean Code': 'regular', 'Git': 'regular', 'SQL': 'regular', 'NoSQL': 'regular', 'HTTP': 'regular', 'REST API': 'regular', 'Kubernetes': 'nice to have', 'Docker': 'nice to have'}",-DevOps Engineer #Kubernetes (m/f/x),Cpl Poland,mid,15000 24000,"{'Linux': 'advanced', 'Kubernetes': 'regular', 'Ansible': 'regular', 'GitLab': 'regular', 'Python/Bash': 'regular', 'Docker': 'junior'}",-Senior DevOps Cloud Engineer,Bayer Sp. z o.o.,senior,18000 26000,"{'AWS': 'advanced', 'IaC': 'advanced', 'Terraform': 'advanced', 'Docker': 'regular', 'Kubernetes': 'regular', 'Workflow Engines': 'regular', 'Python': 'regular', 'Shell Scripting': 'regular'}",-Senior Cloud Engineer with Python,Bayer Sp. z o.o.,senior,18000 26000,"{'Python': 'advanced', 'API': 'regular', 'AWS': 'regular', 'Terraform': 'regular', 'Docker': 'regular', 'Kubernetes': 'regular', 'Workflow Engines': 'nice to have'}",-Senior Java Developer,People More P.S.A.,senior,23000 32000,"{'Java': 'master', 'Spring Boot': 'advanced', 'WebService': 'advanced', 'Microservices': 'advanced', 'React': 'junior'}",-DevOps,Skillspark,senior,33600 40000,"{'DevOps': 'advanced', 'CI/CD': 'regular', 'GitHub': 'regular', 'Jenkins': 'regular'}",-Experienced DevOps Engineer (Azure),Conscensia,senior,28000 33000,"{'Azure': 'master', 'Kubernetes': 'master', 'Docker': 'master'}",-DevOps Engineer,Piwik PRO,mid,13000 22000,"{'Azure': 'regular', 'Kubernetes': 'regular', 'Docker': 'regular', 'Python': 'regular', 'Golang': 'regular', 'Bazy Danych': 'regular', 'Prometheus': 'regular', 'Grafana': 'regular', 'Terraform': 'regular'}",-Vulnerability Management Researchers,Dell Technologies,senior,-,"{'Python': 'advanced', 'C': 'advanced'}",-Frontend Developer,Mudita,mid,10000 13000,"{'TypeScript': 'advanced', 'React': 'advanced', 'CSS': 'advanced', 'GraphQL API': 'advanced', 'REST API': 'advanced', 'English': 'advanced'}",-Head of Security Competence Centre,Orsted,senior,-,"{'Security': 'regular', 'Leadership': 'regular'}",-JIRA Administrator,ArdentCode,mid,10500 14500,"{'JIRA': 'advanced', 'JQL': 'advanced', 'Confluence': 'regular', 'Scrum': 'junior', 'Amazon AWS': 'nice to have'}",-SAP Retail Developer (she/he/they),Żabka Future,mid,-,"{'SAP S/4 HANA': 'regular', 'ABAP': 'regular', 'RFC': 'regular', 'proxy': 'regular', 'ABAP Query': 'regular', 'ABAP OData': 'regular', 'SAP ECC 6.0': 'junior', 'OSS / SAP Notes & Upgrades': 'junior', 'SAP Extended Warehouse Management': 'nice to have', 'SAP Customer Activity Repository (CAR)': 'nice to have'}",-Senior UiPath RPA Developer,DSV ISS,senior,-,"{'UiPath': 'advanced', 'RPA': 'regular', 'UiARD': 'regular', 'Agile': 'regular', 'SDD': 'regular'}",-Senior UiPath RPA Developer,DSV ISS,senior,-,"{'UiPath': 'advanced', 'RPA': 'regular', 'UiARD': 'regular', 'Agile': 'regular', 'SDD': 'regular'}",-Inżynier DevOps,Axabee,mid,-,"{'CI': 'regular', 'CD': 'regular', 'DevOps': 'regular', 'Kubernetes': 'regular', 'Linux': 'regular'}",-Senior Software Testing Engineer,SimCorp,senior,-,"{'CI/CD': 'advanced', 'Test Automation': 'advanced', 'C#': 'regular', 'Object-Oriented Design': 'regular', 'Microsoft Azure': 'junior'}",-DevOps Engineer,Performance Media,mid,-,"{'Git': 'advanced', 'Docker': 'advanced', 'Kubernetes': 'advanced', 'Azure': 'regular', 'Google Cloud Platform': 'regular'}",-SalesForce Developer,Benefit Systems,mid,-,"{'Salesforce': 'advanced', 'HTML': 'regular', 'CSS': 'regular', 'Apex': 'regular'}",-Thereforce Canon Architect,Gazelle Global IT Recruitment,senior,26790 35720,"{'Therefore Platform': 'advanced', 'Document Management': 'advanced', 'migration': 'advanced', 'integration': 'advanced', 'Amazon AWS': 'advanced', 'Microsoft Azure Cloud': 'advanced'}",-Back Office Analyst with German,Herbalife Nutrition,mid,-,"{'MS Excel': 'regular', 'Oracle': 'regular', 'Analytics': 'regular', 'German': 'regular'}",-Junior Technical Support Engineer,Posti,junior,-,"{'ITIL': 'junior', 'Bash': 'nice to have'}",-Senior Salesforce Administrator,ITLT,senior,25000 31000,"{'Salesforce': 'advanced', 'English': 'advanced', 'Cloud': 'regular', 'Monitoring systems': 'regular', 'Data Integration': 'regular'}",-Specjalista ds. Planowania Sieci,Imar Service Group Sp. z o.o.,mid,-,"{'GSM': 'regular', 'UMTS': 'regular', 'LTE': 'regular', 'Angielski': 'regular', 'SQL': 'nice to have'}",-Data Management Analyst,Herbalife Nutrition,mid,-,"{'Project Management': 'regular', 'MS Outlook': 'regular', 'MS Office': 'regular', 'ERP': 'regular', 'Agile': 'regular'}",-Junior Big Data Engineer,3Soft S.A.,junior,-,"{'Big Data': 'junior', 'DevOps': 'junior', 'Bash': 'junior', 'Python': 'junior', 'Linux': 'junior', 'PostgreSQL': 'junior', 'MySQL': 'junior'}",-QA Engineer,Stonly,mid,13000 15500,"{'Manual Testing': 'regular', 'HTML5 / CSS3': 'nice to have', 'JavaScript': 'nice to have'}",-Starszy Programista Java,UNIQA,senior,-,"{'Java': 'master', 'Spring Boot': 'master', 'Kubernetes': 'advanced', 'Docker': 'advanced', 'JUnit': 'advanced', 'Gradle/Maven': 'advanced', 'Git': 'advanced', 'GitLab': 'advanced', 'Microservices': 'advanced', 'REST API': 'advanced'}",-Senior Business Analyst - banking 💸,ITDS,senior,19950 24000,"{'Business Analysis': 'advanced', 'English': 'advanced', 'Process Mapping': 'advanced', 'MS Excel': 'advanced', 'MS Visio': 'advanced', 'stakeholder management': 'advanced', 'MS Project': 'regular', 'Testing': 'regular', 'banking': 'regular', 'Project Management': 'junior'}",-Remote Java Backend Developer,Kingfisher plc,mid,15000 21000,"{'Java': 'master', 'JSON': 'advanced', 'CI/CD': 'regular', 'SQL': 'regular'}",-Middle/Senior DevOps Engineer,Wonga.pl,mid,15000 20000,"{'DevOps': 'regular', 'Problem Solving': 'regular', 'Powershell': 'regular', 'Bash': 'regular'}",-Golang Developer,Idego,mid,17000 20000,"{'English': 'advanced', 'Golang': 'advanced', 'Redis': 'nice to have', 'PostgreSQL': 'nice to have', 'Kubernetes': 'nice to have', 'Firestore': 'nice to have', 'GCP': 'nice to have', 'Cloud': 'nice to have'}",-Project Manager,Applover,mid,10000 14000,"{'English': 'master', 'Polish': 'master', 'JIRA': 'regular'}",-Remote Quality Engineer,Kingfisher plc,mid,12000 18000,"{'Jenkins': 'advanced', 'JIRA': 'advanced', 'GitLab': 'advanced', 'Confluence': 'regular', 'CI/CD': 'regular', 'SQL': 'regular'}",-Scrum Master for IT Product Line,Orsted,senior,-,{'Scrum': 'advanced'},-Senior DWH Developer,JellyTech Sp. z o.o.,senior,18000 28000,"{'ETL': 'advanced', 'DWH': 'advanced', 'SQL': 'advanced', 'Microsoft Azure': 'nice to have', 'Databricks': 'nice to have'}",-Senior Business Analyst - banking 💸,ITDS,senior,19950 24000,"{'Business Analysis': 'advanced', 'English': 'advanced', 'Process Mapping': 'advanced', 'MS Excel': 'advanced', 'MS Visio': 'advanced', 'stakeholder management': 'advanced', 'MS Project': 'regular', 'Testing': 'regular', 'banking': 'regular', 'Project Management': 'junior'}",-Embedded Firmware Engineer,Rebels Software Sp. z o.o.,senior,16800 25200,"{'Embedded Systems': 'advanced', 'C': 'advanced', 'RTOS': 'regular', 'TCP/IP': 'regular', 'Networking': 'regular', 'Blutooth Low Energy': 'regular'}",-IT Project Manager with German,NATEK,senior,28000 B2B,"{'German': 'master', 'Project Management': 'master', 'English': 'advanced', 'PRINCE2/PMI': 'advanced'}",-QA Automation Engineer,Luxoft Poland,mid,14000 17000,"{'QA Automation': 'master', 'Java': 'master', 'REST API': 'advanced', 'Jenkins': 'advanced', 'Docker / Kubernetes': 'nice to have', 'aws cloud': 'nice to have'}",-Software Engineer APL/C#,SimCorp,mid,-,"{'TDD': 'regular', 'CI/CD': 'regular', 'APL': 'nice to have', 'C#': 'nice to have'}",-Full-Stack Engineer,ArdentCode,senior,16000 25000,"{'TypeScript': 'advanced', 'Node.js': 'advanced', 'JavaScript': 'advanced', 'Angular': 'regular', 'AWS': 'junior'}",-ServiceNow Developer,Experis Manpower Group,mid,-,"{'ServiceNow': 'regular', 'JavaScript': 'regular', 'AngularJS': 'regular', 'HTML/CSS': 'regular', 'Relational Databases': 'regular', 'ITSM/CMDB/SELF-SERVICE corporate tools': 'nice to have'}",-Azure DevOps Engineer,Luxoft Poland,senior,-,"{'Azure Cloud Platform': 'advanced', 'AAD': 'advanced', 'ARM': 'advanced', 'Azure networking': 'advanced', 'GitLab': 'advanced', 'Packer': 'advanced', 'DevOps': 'advanced', 'CI/CD': 'advanced', 'Python': 'nice to have', '.Net': 'nice to have'}",-Software Developer,Luxoft Poland,senior,-,"{'C#': 'advanced', 'Python': 'advanced', 'SQL': 'regular', 'C++': 'nice to have', 'Fixed Income space': 'nice to have'}",-Backend .NET Developer,it-solve,mid,13400 18000,"{'MS SQL': 'regular', 'Git': 'regular', '.NET Core': 'regular', 'ASP.NET Core': 'regular', 'C#': 'regular', 'Microsoft Azure': 'regular', 'Amazon AWS': 'regular'}",-Manager/ka Projektów AI,KRUK S.A,mid,-,"{'AI': 'regular', 'NLP': 'nice to have', 'Lean': 'nice to have'}",-Back-end Team Leader,Startup House,senior,18800 27200,"{'Node.js': 'advanced', 'TypeScript': 'advanced', 'Nest.js': 'regular'}",-Front-end (VUE) Developer,it-solve,mid,13400 18000,"{'Vue.js': 'regular', 'JS': 'regular', 'HTML5': 'regular', 'CSS3': 'regular', 'SASS': 'regular', 'Git': 'junior', 'TypeScript': 'nice to have'}",-Fullstack JavaScript Developer,StratsLab,senior,20000 40000,"{'JavaScript': 'advanced', 'Python': 'nice to have', 'React': 'nice to have', 'TypeScript': 'nice to have'}",-Senior Staff Data Engineer,Zendesk,senior,25000 37000,"{'ETL tools': 'master', 'SQL': 'master', 'DBT': 'master', 'Big Data': 'advanced', 'Python': 'advanced', 'Java': 'advanced', 'Go': 'advanced', 'Scala': 'advanced', 'BigQuery': 'advanced', 'Amazon Redshift': 'advanced'}",-Młodszy administrator IT,"Fundacja Rozwoju Przedsiębiorczości ""Twój StartUp""",Junior,-,,
+Senior Java Developer,Lufthansa Systems,Senior,10000 29400,"Java, Spring Boot, Git, Docker, JUnit, Angular","Jenkins (CI/CD), Ansible, LogBack, MongoDB, Kafka, Swagger, Maven"
+DevOps Engineer,JellyTech,Senior,22000 26800,"Python, Java, AWS, Git, Nexus, Artifactory, Gradle, Teamscale, CI/CD",
+IT Development Lead CRM,Robert Bosch Sp. z o.o.,Mid,-,SAP,
+Senior AWS/Java Developer,CANAL+ Polska S.A.,Senior,-,"Java, Spring Boot, AWS, Git, Jenkins, Maven, Jira, Confluence",
+Senior Automation Developer,TMF Group,,-,,
+Content Moderator (Junior Data Reviewer) with English and Norwegian,Accenture Operations,Junior,-,,
+Content Moderator (Junior Data Reviewer) with English and Dutch,Accenture Operations,Junior,-,,
+Customer Service Technical Support with English and German,Accenture Operations,Mid,-,,
+WMS Key User,NewCold Operations Modlin Sp. z o.o.,Mid,-,WMS,
+Młodszy Automatyk – Technik ds. Pallet Shuttle oraz Movirack,Mecalux Sp. z o.o.,Junior,-,,
+Technik Serwisant,Blasc Sp. z o.o.,,-,,
+Senior AWS Python Developer,ITDS Polska Sp. z o.o.,Senior,21000 25200,"AWS, Python, Linux, Jenkins, Git, Ansible",Terraform
+Testing and Senior QA Specialist,ITDS Polska Sp. z o.o.,Senior,18900 24150,,
+Machine Learning,ITDS Polska Sp. z o.o.,Mid,18900 23100,"Java, Python, Jenkins, Ansible, Git",
+Lead Cloud Security Engineer,ITDS Polska Sp. z o.o.,expert,21000 25200,"Microsoft Azure, Amazon Web Services, Google Cloud Platform, Alibaba Cloud, Python, Bash, PowerShell","Jenkins, Terraform, Ansible, GitHub, Nexus"
+Administrator Baz Danych,GRUPA PZU,Senior,-,SQL,"PowerShell, Ansible"
+Elektronik - Programista,MULTI ROTOR GENERATOR Sp. z o.o.,Mid,6000 8500,,
+Software Architect,Recruit Europe Sp.zo.o.,,28000 41000,,
+Software Developer C++ / Linux / Buildroot,Recruit Europe Sp.zo.o.,,28000 41000,,
+Embedded Software Developer with focus on Image processing,Recruit Europe Sp.zo.o.,,28000 41000,,
+React Senior Developer,AppVelocity Inc,,18000 28000,,
+Senior Project Manager,MINDVERSE CONSULTING SERVICES,manager / supervisor,-,"Confluence, Jira",
+Tester Manualny (Zespół SCRUM),Bank Millennium S.A.,Mid,-,,"Jira, Confluence"
+Key Account Manager - branża IT,VENTI Efektywne Rozwiązania Internetowe,Mid,7000 15500,,
+SAP Engineer (MM/QM/DMS/VC),Rockwell Automation,Mid,-,"Microsoft Office, SAP, PLM",
+SAP Basis Engineer for System Integration,CSHARK sp. z o.o.,,24000 33500,,
+Inżynier ds. Utrzymania Sieci,"Towerlink Poland, a part of Cellnex Group",Mid,-,,
+Tester Manualny,Team Connect Sp. z o.o.,Mid,11200 14400,"REST API, Postman, Swagger, SQL, Kibana, Jira, Confluence",
+Technology Specialist - Procurement SaaS,HEINEKEN Global Shared Services,Mid,-,Agile,"SaaS, HICX"
+Category Manager - Vice President - Technology/ Software Sourcing,J.P. Morgan Poland Services sp. z o.o.,team manager,-,,
+Junior .NET Developer,EMPLO sp. z o.o.,Junior,4000 10000,"C#, ASP.NET MVC, Entity Framework, SQL, .NET, .NET Core, Docker","React.js, TypeScript, CSS, HTML"
+Programista .NET,EMPLO sp. z o.o.,Mid,9000 16000,"C#, ASP.NET MVC, Entity Framework, SQL, Docker, .NET Core, .NET","React.js, CSS, HTML, TypeScript"
+Młodszy Tester Aplikacji,EMPLO sp. z o.o.,Junior,-,,"Robot Framework, Postman"
+Junior Tax Documentation & Compliance Specialist,Brown Brothers Harriman,Mid,-,,
+Technical Support Specialist I with French/Spanish (2nd line),JAMF,,8750 11000,,
+Technical Support Engineer,Catalogic Software,Mid,10000 15000,,"Bash, PowerShell, Microsoft Exchange, Oracle"
+Test Automation Engineer (QA),Catalogic Software,Mid,5000 10000,"pyTest, Selenium, Java, HTML, CSS, JavaScript, Docker, Git, GitFlow","Cypress, Compose, Swarm"
+Java Developer,Catalogic Software,Mid,10000 20000,"Java, Spring Framework, Docker, Git, GitFlow","Maven, Gradle, Composer, Swarm"
+C# Developer,Catalogic Software,Mid,10000 15000,"C#, .NET Core, HTTP, SQL, Entity Framework",
+Junior IT Specialist,Catalogic Software,Junior,5000 9000,,
+C Developer,Catalogic Software,Mid,10000 15000,"C, Linux","C#, Microsoft SQL Server, Microsoft Exchange, SharePoint, Oracle, Volume Shadow Copy Service"
+Technical Documentation Writer,Catalogic Software,Mid,5000 10000,,
+Młodszy Specjalista ds. IT,Prime Engineering Poland,Junior,5000 8000,,
+Administrator Systemów IT,Prime Engineering Poland,Mid,14000 18000,"Windows Server, Active Directory, Windows Client, MECM, VMware, PowerShell",Linux
+PowerBI Support,Prime Engineering Poland,Mid,16000 21000,"Microsoft Power BI, Linux, Oracle, SQL, Shell, Bitbucket, Jenkins, Artifactory, Ansible",
+Główny Specjalista ds. Cyberbezpieczeństwa,PGE Górnictwo i Energetyka Konwencjonalna S.A.,Mid,-,Active Directory,
+Ekspert ds. Rozwiązań Cyfrowych IT,DHL Parcel,,-,,
+Specjalista ds. Rozwoju i Wdrażania Testów (k/m),TRUMPF Huettinger Sp. z o.o.,Mid,-,"C, C++",
+CCO - DBS Control Testing Manager,HSBC Service Delivery (Polska) Sp. z o.o.,Senior,-,,
+SAP Global Process Expert,MAHLE Shared Services Poland Sp. z o.o.,,-,,
+Senior Node.js Developer,MERIXSTUDIO SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,Senior,13000 23000,"Node.js, TypeScript, PostgreSQL, MongoDB, DynamoDB, Express, Nest.js, Linux, AWS, Docker, Redis, RabbitMQ","Google Cloud Platform, Microsoft Azure"
+Junior Finance Software Tool Specialist,Blubina GmbH,,-,,
+Cyber Security Specialist,"""BASF CATALYSTS POLSKA"" Sp. z o.o.",Mid,-,,
+Młodszy Specjalista ds. IT,Przetwórstwo Tworzyw Sztucznych Plast-Box S.A.,Junior,-,,
+Customer Service Advisor with German,Atos Poland Global Services Sp. z o.o.,Mid,-,,
+Frontend Developer,E NET PRODUCTION,Mid,10000 18000,"JavaScript, SASS, SCSS, Vue.js, Git","TypeScript, Docker"
+PHP Developer,E NET PRODUCTION,Mid,10000 18000,"PHP, Symfony, MySQL","Redis, Elasticsearch, RabbitMQ, Varnish, Docker"
+Software Tester,E NET PRODUCTION,Mid,10000 14000,"REST API, JavaScript, Cypress, SQL, TypeScript","Linux, BrowserStack, Jira, Elasticsearch, Redis, Git, NoSQL"
+AUTOSAR Engineer,L&T Technology Services Limited (Sp. z o.o.) - Oddział w Polsce,Mid,16000 24000,,
+UX Manager,PwC,Mid,-,"Figma, Adobe Creative Suite, Miro, Sketch or InVision",
+Analityk Projektant Systemów IT,POSNET POLSKA S.A.,Mid,-,,"Jira, UML, BPMN"
+Python Quant Developer,HSBC Service Delivery (Polska) Sp. z o.o.,Mid,-,"Python, Git","Java, Docker"
+Cloud Engineer,HSBC Service Delivery (Polska) Sp. z o.o.,Mid,-,Java,
+Digital Solutions Architect,Biedronka (Jeronimo Martins Polska S.A.),Senior,-,,"Salesforce Commerce Cloud, Mulesoft, SAP, AWS, GCP, Azure, Outsystems"
+SAP Basis Consultant,Biedronka (Jeronimo Martins Polska S.A.),ekspert,-,,"HANA, Oracle, ABAP"
+iOS Developer (mPilot),Lufthansa Systems,Senior,10000 29400,"Swift, Git, SwiftUI, Jira","UIKit, CoreData, XCTest, Xcode, Fastlane, Swift Package Manager"
+iOS Developer (mPilot),Lufthansa Systems,Mid,8000 16000,"Swift, Git, SwiftUI, Jira","UIKit, CoreData, XCTest, Xcode, Fastlane, Swift Package Manager"
+Konsultant IT - Virtualization Engineer,All for One Poland,Mid,-,VMware,"Microsoft Azure, AWS, Zabbix, VMware"
+Konsultant Transformacyjny SAP,All for One Poland,,-,,
+Product Owner / System Analyst,Consdata S.A.,Mid,10500 19000,BPMN,
+Regular Fullstack Developer (Java+Angular),Consdata S.A.,Mid,11300 21000,"Java, Spring Framework, Angular, PostgreSQL, MongoDB, Docker","Kafka, OpenShift"
+Regular Java Developer,Consdata S.A.,Mid,11300 21000,"Java, Spring Framework, PostgreSQL, MongoDB, Docker","Kafka, OpenShift"
+Senior Frontend / Fullstack Developer,Consdata S.A.,Senior,14900 27220,"Angular, TypeScript, Java, Spring Framework, IntelliJ, Git, Docker, OpenShift",
+Senior Fullstack Developer (Java+Angular),Consdata S.A.,Senior,14900 27220,"Java, Spring Framework, Angular, PostgreSQL, MongoDB, Docker","Kafka, OpenShift"
+Senior Java Developer,Consdata S.A.,Senior,14900 27220,"Java, Spring Framework, Docker, Git, TypeScript, MongoDB","Kafka, OpenShift"
+Senior Python Quant Developer,HSBC Service Delivery (Polska) Sp. z o.o.,Senior,-,"Python, Git","Jenkins, Docker, Nexus"
+Specjalista ds. SEO,FUNDUSZ HIPOTECZNY YANOK sp. z o.o.,Mid,-,,
+Programista C++ (karty mikroprocesorowe/ kryptograficzne),ENIGMA Systemy Ochrony Informacji Sp. z o.o.,Mid,-,C++,"C, Python, Yocto, UNIX/Linux, RTOS, ARM, Xilinx, MPSoC, Gitlab CI/CD, Redmine, Jira, Agile"
+Senior Backend Developer with Node.js,NTIATIVE sp. z o.o.,Senior,-,"Node.js, PostgreSQL, MongoDB, Redis","Java, Python, Scala, JavaScript"
+Senior DevOps Engineer for Cloud Services,Samsung R&D Institute Poland,Senior,-,"Kubernetes, Terraform, Prometheus",
+Analityk Systemowy,Consdata S.A.,,-,,
+AWS DevOps Engineer,BaseLinker,Mid,-,"AWS, Terraform, Ansible, Docker",
+Cloud DevOps Architect / Cloud DevOps Engineer,PwC,,-,,
+Senior C++ Software Engineer,Samsung R&D Institute Poland,Senior,-,C++,
+"Fullstack Developer (Node, React, TypeScript, React-Native)",JellyTech,Mid,19200 25600,"Node.js, React.js, TypeScript",React Native
+Salesforce Developer,JellyTech,Mid,21000 26900,"Salesforce, Apex, LWC, SF APIs, Visualforce, React.js, jQuery, cloudsense",
+Java Developer,JellyTech,Senior,21800 26800,"Java, Spring Framework, Maven, JavaScript",
+Java Developer,JellyTech,Senior,21800 26800,"Java, React.js, React Native, NextJS, Kubernetes, MySQL, MariaDB",
+"Fullstack Developer (React.js, NextJS, Java)",JellyTech,Senior,21800 26800,"React.js, NextJS, Java, React Native, Go, Kubernetes, Scala",
+Cyber Security Data Engineer (Data Scientist),Robert Bosch Sp. z o.o.,,-,,
+Data Modeler,Robert Bosch Sp. z o.o.,Mid,-,"SQL, Git",
+Python Developer with Linux (Cyber Security),Robert Bosch Sp. z o.o.,,-,,
+Cyber Security Engineer (DevOps & Automation),Robert Bosch Sp. z o.o.,,-,,
+Junior Service Desk Specialist with German,Robert Bosch Sp. z o.o.,Junior,-,,
+BI Developer,Autopay,Mid,-,"SQL, Power BI","Python, Jira"
+Data Engineer,Autopay,Mid,-,"Kubernetes, Docker, Git, GitLab, Terraform, Snowflake Data Cloud",
+Data Steward,Autopay,Mid,-,"SQL, Kafka",
+Senior Cloud Engineer,TVN Warner Bros. Discovery,Senior,-,"AWS, Google Cloud Platform, Linux",
+Technik/monter systemów IT,AB Systems sp. z o.o.,Mid,-,,
+Senior Cloud Engineer,TVN Warner Bros. Discovery,Senior,-,"AWS, Google Cloud Platform, Linux",
+Analityk Systemowy,KACZMARSKI GROUP,Mid,-,"SQL, Jira, Confluence, UML, BPMN, Enterprise Architect",
+"SAP Analytics Developer (ABAP, SAC, BW, S4)",Robert Bosch Sp. z o.o.,Mid,-,SAP,
+Java Developer - Tribe Billing,T-Mobile,Mid,-,"Java, Kafka, ActiveMQ, Spring Boot 2+, Spring Cloud, Junit, Git, Oracle, PostgreSQL, Mongo, Redis","React, Python, Cloud"
+(Cybersecurity) SRE Release Engineering Analyst,HSBC Service Delivery (Polska) Sp. z o.o.,Mid,-,,"Bash, Python, PowerShell, Puppet, Jenkins, Tenable, Azure Power BI"
+Senior IP Engineer,Rekrutacja 360- Pracuj.pl,Senior,-,Cisco,
+Senior Network Consultant,Rekrutacja 360- Pracuj.pl,Senior,-,xPON,xPON
+Network Consultant- DOCSIS,Rekrutacja 360- Pracuj.pl,Mid,-,xPON,xPON
+"Network Consultant- IP, Xpon",Rekrutacja 360- Pracuj.pl,Mid,-,xPON,xPON
+Aftermarket Sales Account Manager,Cummins,team manager,-,,
+Wsparcie techniczne 2nd Level klienta z j. niemieckim - Service Desk,Inco sp. z o.o.,Mid,-,,
+Capital Markets Product Manager - COO,HSBC Service Delivery (Polska) Sp. z o.o.,manager / supervisor,-,,
+Master IT System Administrator (m/f),Santander Bank Polska,,-,,
+Analityk Systemowy (k/m),Santander Bank Polska,,-,,
+CRM scientist (m/f),Santander Bank Polska,,-,,
+Compliance & Sustainability Advisor,Lundbeck GBS Kraków,Mid,-,,
+Service Desk Agent with Dutch,Wipro IT Services,Mid,-,,
+C++ Game Developer,NOVOMATIC Technologies Poland Sp. z o.o.,Mid,12000 23000,"C++, SVN, Git",
+FullStack Developer,NOVOMATIC Technologies Poland Sp. z o.o.,Mid,10000 18000,"JavaScript, TypeScript, React.js, Node.js","C#, C++"
+DevOps Engineer,NOVOMATIC Technologies Poland Sp. z o.o.,Mid,14000 28000,"Linux, Kubernetes, AWS, Ansible, Terraform",
+Java Developer,NOVOMATIC Technologies Poland Sp. z o.o.,Mid,14000 28000,"Java, Spring Boot, Git, Docker",Node.js
+Embedded C++ Developer,NOVOMATIC Technologies Poland Sp. z o.o.,Mid,12000 20500,"C++, C",
+Backend Java Developer,NOVOMATIC Technologies Poland Sp. z o.o.,Mid,14000 28000,"Lagom, Spring Boot, Java",
+C++ Software Developer,NOVOMATIC Technologies Poland Sp. z o.o.,Mid,12000 18000,"C++, Linux, Jenkins",
+Atlassian Administrator,NOVOMATIC Technologies Poland Sp. z o.o.,Mid,6500 12000,Linux,
+Content Moderator (Junior Data Reviewer) with English and Spanish,Accenture Operations,Junior,-,,
+Senior Java Developer,Brown Brothers Harriman,Senior,-,"Java, JavaScript",
+SAP Basis Consultant,IBA POLAND sp. z o.o.,Mid,-,"SAP, SAP HANA, SAP Basis","Oracle, Sybase, Microsoft SQL Server, DB2, cloud"
+Software Quality Engineer,TPV Displays Polska Sp. z o.o.,Mid,-,"Android, Linux",
+Data Engineer,ITDS Polska Sp. z o.o.,,18900 24150,,
+IT/OT Network Technology Consultant,HEINEKEN Global Shared Services,Mid,-,,
+Frontend Developer,ITDS Polska Sp. z o.o.,Mid,19950 26250,"React.js, Vue.js, CSS, JavaScript, TypeScript, HTML, Git","AWS, Docker, Kubernetes, CBCD, Jenkins, Groovy, Nexus, Splunk"
+Billing Control Specialist with Spanish,Baxter,Mid,-,,
+Sharepoint Developer,ITDS Polska Sp. z o.o.,Senior,26250 27300,".NET, C#, React.js, SharePoint, TypeScript, SQL, NoSQL, Git, Microsoft Office 365, GitHub, CSS, Azure DevOps",
+Starszy Kierownik Projektu,AGRO APLIKACJE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,kierownik / koordynator,-,"Jira, Confluence",
+Fullstack Engineer,APPLISCALE sp. z o.o.,Mid,10000 22000,"JavaScript, TypeScript, Node.js, Java, Kotlin, Python, C++, Golang",
+Release Manager,Samsung R&D Institute Poland,manager / supervisor,-,Git,"Gitflow, Workflow, Python, Bash, Ansible, Jenkins, Sumologic, Datadog"
+Digital Autumn - Internship & Mentoring Programme,Deloitte Polska,trainee,-,,
+Data Warehouse Engineer - Developer,ITDS Polska Sp. z o.o.,Mid,16800 23100,"SQL, T-SQL, MSSQL",Microsoft Azure
+Network Engineer (f/m/d),EMBL,Mid,-,Cisco,
+OMS (ABAP) Developer,Arvato Polska,Mid,-,"ABAP, Adobe Forms, SAP, SQL","Jira, SAP S/4HANA"
+Data Warehouse Analyst,ITDS Polska Sp. z o.o.,Mid,14700 21000,"Oracle, PL/SQL, SQL, T-SQL, MSSQL",
+Security Analytics Center Engineer,Kapsch Telematic Services Sp. z o.o.,Mid,-,,"IAM, SIEM"
+Business Transformation Solution Architect,Brown Brothers Harriman,Mid,-,Agile,
+Cobol Developer,ITDS Polska Sp. z o.o.,Mid,16800 27300,"COBOL, SQL",
+Android Engineer,Samsung R&D Institute Poland,Mid,-,"Java, Kotlin, Android, Linux",
+Application Engineer (On-premise services and applications),Commerzbank AG,Mid,-,"Docker, OpenShift, Bash, Oracle",
+Senior Cloud Infrastructure Engineer,SmartRecruiters INC,Senior,18000 28500,"AWS, Kubernetes, Bash, Python, Terraform, Networking, Linux, IaC","Java, SQL, Ansible, Databases, GCP"
+PMO / Project Manager,ITDS Polska Sp. z o.o.,"manager / supervisor, team manager",16800 20160,"Microsoft Project, Jira, Confluence, SharePoint, Microsoft Excel, Micorosft PowerPoint",
+Senior SAP CRM Developer,7N Sp. z o.o.,Senior,26880 33600,"SAP, SAP ABAP, SAP HANA",
+Analityk/czka Systemów Biznesowych,Benefit Systems S.A.,Mid,-,"UML, BPMN, Jira, Confluence, Agile",
+SAP Cloud Architect - presale,MINDVERSE CONSULTING SERVICES,Mid,-,SAP,
+Senior SAP PS Consultant,MINDVERSE CONSULTING SERVICES,Senior,-,SAP,SAP HANA
+AWS Lead Developer,MINDVERSE CONSULTING SERVICES,manager / supervisor,-,"AWS, SQL",
+Performance Tester,MINDVERSE CONSULTING SERVICES,Mid,-,Performance Testing,
+Specjalista ds. infrastruktury serwerowej i sieciowej,Havi Logistics Sp. z o.o.,Mid,-,"AWS, Azure, Google Cloud Platform","PowerShell, Java, Python"
+Mechanical Engineer,TPV Displays Polska Sp. z o.o.,Mid,-,,
+MS Dynamics 365 Financial Consultant,KPMG,,-,,
+Graphic Designer,DDB Warszawa Sp. z o.o.,Mid,-,,
+Procurement Data Analyst,Motorola Solutions,Mid,-,"Tableau, Microsoft Power BI, SQL, SAP/Oracle",
+Xamarin Developer,ITFS sp. z o.o.,Mid,22400 27200,"Xamarin, C#, .NET, Git",
+Software Engineer .NET | High Load Platform,Adform Sp. z o.o.,Mid,12000 25000,".NET, SQL, NoSQL, Git, Java, Scala",".NET Core, Puppet, Terraform, Ansible, Docker, Kubernetes, RabbitMQ, Kafka"
+Administrator systemów informatycznych,SWPS Uniwersytet Humanistycznospołeczny,,-,,
+Software Engineer (High Load),Adform Sp. z o.o.,Mid,18000 35000,"C#, C++, C, Lua, Java, Scala",
+Network Administrator,Samsung R&D Institute Poland,Mid,-,"LAN/WAN/WLAN networks, Wireless Control Systems, Cisco",
+Administrator aplikacji IT - obszar ERP,American Heart of Poland S.A.,Mid,-,Active Directory,
+Senior Java Developer with Polish and English,MINDVERSE CONSULTING SERVICES,Senior,-,"Kotlin, Java, Maven, Jenkins",
+Senior Java Fullstack Developer,MINDVERSE CONSULTING SERVICES,Senior,-,"JavaScript, Java, React.js, Spring Boot",
+Customer Service Associate with English,Capita (Polska) Sp. z o.o.,Mid,-,,
+Cloud Security Expert,ALIOR BANK,,-,,
+System Administrator / Digital Factory Engineer (k/m),CONSEA POLAND,Mid,-,,
+Programista Java,PKO Ubezpieczenia,Mid,-,"Kotlin, Spring, Hibernate, Groovy, Maven, Gradle, SOAP, REST API",T-SQL
+Test Manager,Mindbox S.A.,"manager / supervisor, team manager",25200 29400,,
+IT Project Manager,HSBC Service Delivery (Polska) Sp. z o.o.,Mid,-,Agile,
+Programista FrontEnd (Angular),PKO Ubezpieczenia,Mid,-,"Angular, Typescript, JavaScript, HTML, CSS","SOAP, REST API, PUG"
+Senior System Administrator,ZF Group,Senior,-,,
+Tester Oprogramowania,ZETO SOFTWARE Sp. z o.o.,Mid,-,"MS Office, API, Jira, Git, SVN",
+Programista integracji systemów IT,PKO Ubezpieczenia,Mid,-,"ESB, SOAP/REST, Java EE, Spring Boot, Spring Framework, Kafka, Apache, Camel","WSO2, Oracle SOA Suite, Git, Jenkins, Docker, SQL"
+Java Developer,Seargin Sp. z o.o.,Mid,-,"Java, Spring Framework, SQL, Hibernate, Kubernetes, OpenShift",
+Senior JavaScript Fullstack Developer,Boldare,,13400 27000,,
+SQL Software Developer,eLeader Sp. z o.o.,Mid,-,"SQL, T-SQL",
+Data Manager,Sodexo Polska,Senior,-,,
+Praktyki w Konsultingu IT - CRM/Salesforce,Accenture Technology,,-,,
+Praktyki w Konsultingu IT – Salesforce Marketing Cloud,Accenture Song,,-,,
+Golang Backend Developer,Prime Engineering Poland,Senior,16000 18000,Golang,"Node.js, Java, Python, Jira, Docker, Kubernetes"
+Analityk / Analityczka CRM,Nationale-Nederlanden,Mid,-,"SQL, Python, SAS CI Studio",
+Kierownik Projektu,AGRO APLIKACJE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,kierownik / koordynator,-,"Jira, Confluence",
+Senior Test Automation Engineer,Prime Engineering Poland,Senior,17000 21000,"Git, Ruby, Java, REST API, Gherkin","MongoDB, PostgreSQL, Kibana, Jira, Xray"
+Remote Solution Architect,Jit Team sp. z o.o.,Senior,32000 36000,"Jira, Confluence, Java",SQL
+Data Governance Manager,Grupa Spółek Danone Polska,team manager,-,,
+Automatyk - Programista PLC,Mecalux Sp. z o.o.,Mid,-,,
+Analityk Aplikacji / App Analyst,Empik S.A.,Mid,-,,
+iOS Senior Developer,GFT Polska,,-,,
+Intern Accounts Receivable,Schaeffler Global Services Europe Sp. z o.o.,Mid,-,,
+Software Engineer (SaaS Back-End AWS),Adtran,Mid,12000 17000,Python,
+Change Management Senior Business Analyst,Brown Brothers Harriman,Senior,-,,
+Project Manager,Brown Brothers Harriman,manager / supervisor,-,Agile,
+"Senior Analyst, Client and Third-party Intelligence",Standard Chartered Bank,Senior,-,,
+Lead Automation Test Engineer (Python),J-LABS sp. z o.o.,kierownik / koordynator,22400 25600,"Python, AWS, Selenium",
+Administrator systemu SAP (obszar MM),PWPW S.A.,Mid,-,"SAP, SAP HANA, SAP MM, SAP Fiori",SAP ABAP
+Flutter Developer,ONWELO Sp. z o.o.,,8000 20160,,
+Java Developer,ITFS sp. z o.o.,Mid,16000 19200,"Java, Maven, Spring Boot, AWS",
+Social Media / Designer,Grey Worldwide Warszawa,Mid,-,,
+Systems Engineer/Linux,Lufthansa Systems,Senior,10000 21000,"Debian, Red Hat",
+Hardware Test Specialist,Sopem,Mid,-,,
+Analityk E-commerce,Marketing Investment Group,Mid,-,,
+Freelancer - IT Support,CRAON.PL sp. z o.o.,,-,,
+Manager Optymalizacji Procesów Biznesowych,Auchan,,-,,
+Programista w dziale serwisu,Mecalux Sp. z o.o.,Mid,-,"SQL, C#",
+Frontend Web Game Developer,Optimo Development Sp. z o.o.,Mid,15000 20000,"JavaScript, TypeScript, PIXI.JS","ActionScript, RobotlegsJS, Three.js, WebGL, webpack, Node.js, Adobe Animate, Spine"
+Business & Systems Analyst,C&F,Mid,-,"SQL, Rest API, Jira",
+Specjalista ds. Nadzoru Sieci,"Towerlink Poland, a part of Cellnex Group",Mid,-,,
+Systems Engineer/DevOps,Lufthansa Systems,Senior,10000 21000,"DevOps, Bash, Go, Ruby, Python, Docker, Kubernetes, Jenkins, Azure DevOps","Terraform, Ansible, Kafka, Elasticsearch, Puppet"
+SalesForce Developer,Benefit Systems S.A.,Mid,-,"Salesforce, Apex, HTML, CSS",
+Software Architect,SOFTSWISS,Mid,-,"PostgreSQL, Kafka, RabbitMQ, Redis, Docker, Kubernetes, Prometheus",
+Specjalista IT help desk,Mecalux Sp. z o.o.,Mid,-,C#,
+IT Team Leader,MAN Shared Services Center sp. z o.o.,team manager,-,,
+DevOps Architect,HSBC Service Delivery (Polska) Sp. z o.o.,expert,-,DevOps,"AWS, Azure"
+Service Reliability Engineer,HSBC Service Delivery (Polska) Sp. z o.o.,Mid,-,,"Jira, Confluence"
+IT Team Leader,Hart Sp. z o.o.,,18000 20000,,
+DevOps Engineer for Cloud Services,Samsung R&D Institute Poland,Mid,-,"AWS, Terraform, Terragrunt, Python, GitHub Actions, SonarQube, Containers (Docker)",
+Web Experience Specialist,Ingersoll Rand,Mid,-,,
+Test Analyst,CERI International,,-,,
+Administrator Systemów Bezpieczeństwa,Centralny Port Komunikacyjny,Mid,-,"Microsoft Azure, Office 365, Nesuss, OpenVAS, Active Directory",
+Specjalista ds. metodyk zwinnych (Scrum master),PKO Ubezpieczenia,Mid,-,"Jira, Confluence",
+Analityk systemowy,TRUSTED SOFTWARE SERVICES sp. z o.o.,Mid,-,"UML, BPMN, Jira, Confluence, Enterprise Architect, SQL",
+Tester automatyzujący,TRUSTED SOFTWARE SERVICES sp. z o.o.,Senior,-,"TestRail, Xray, HPQC, Jira, TestLink, SoapUI, JMeter, Postman, SQL, Selenium, Java, JavaScript",
+Administrator systemu ubezpieczeniowego,PKO Ubezpieczenia,Mid,-,"SQL, Linux, Red Hat","Apache Tomcat, apache HTTP server, JBoss Application Ser, WildFly, WSO2, Oracle"
+Software Engineering Manager,Equinix,manager / supervisor,-,"SQL, AWS",
+Test Automation Engineer,Sollers Consulting,,-,,
+Process Automation Junior Developer,McCormick Shared Services,Junior,-,,
+SAP BW Consultant (m/f/d),Zone IT Sp. z o.o.,Mid,-,"SAP, SAP BW, SAP ABAP",
+Developer - Konfigurator Ferryt,7N Sp. z o.o.,Mid,14280 16800,"FerrytFlow, UniFlow, BPMN, UML","SQL, T-SQL, HTML, CSS"
+Junior Order Management System Specialist,Avon Cosmetics Polska Sp. z o.o.,Mid,-,,
+Business Intelligence Specialist,Demant Business Services,Mid,-,,
+Młodszy Konsultant ds. Wdrożeń SAP FI/CO,Abile Sp. z o.o.,Junior,-,,"SAP ABAP, SAP SAC, SAP BPC"
+Młodszy Programista SAP,Abile Sp. z o.o.,Junior,-,"SAP, S/4HANA, ABAP",
+Java Developer,PSI Polska,,-,,
+Data Engineer with Druid and Superset,Sii Sp. z o.o.,,-,,
+Software Engineer in Test,HAPPY TEAM,Senior,18000 25000,"C#, Selenium, Appium, RestAPI, Microsoft Azure, Git, SQL","Specflow, Xunit, Nunit, Java"
+LIMS Application Specialist,Micro Solutions Sp. z o.o.,Mid,-,LIS/LIMS,
+Analityk Biznesowy,ASSECO DATA SYSTEMS S.A.,,-,,
+Specjalista ds. zakupów,Exact Systems Sp. z o.o.,Mid,-,,
+Specjalista PMO,Convista Poland,Mid,-,Excel,"Concur, Ariba Network, Fieldgrass, SAP R3D"
+Python Test Engineer – automotive industry,Sii Sp. z o.o.,,-,,
+Programista Java,REDGE TECHNOLOGIES SP. Z O.O.,Mid,-,"Java, Spring Boot, Hibernate, Git, Gradle, Jenkins, SQL, PostgreSQL, MySQL, JavaScript, Linux","AWS, Tomcat, Wildfly"
+Senior DevOps Engineer (AWS),7N Sp. z o.o.,Senior,31920 36960,"Kubernetes, AWS, Terraform",
+Programista,Poczta Polska Spółka Akcyjna,,-,,
+Database Administrator,Product Madness,Mid,12500 14000,"MySQL, PostgreSQL, MongoDB, Snowflake Data Cloud","Ansible, Terraform, Google Cloud Platform, AWS, Docker, Kubernetes"
+Infrastructure Engineer,Product Madness,Mid,-,"Google Cloud Platform, Kubernetes, Jenkins, Docker",AWS
