@@ -1,5 +1,10 @@
+import time
+
 from selenium import webdriver
 from bs4 import BeautifulSoup
+from selenium.webdriver import ActionChains
+from selenium.webdriver.common.actions.wheel_input import ScrollOrigin
+from selenium.webdriver.common.by import By
 
 import CSVWritter
 
@@ -8,8 +13,10 @@ def getHTML(URL):
     driver = webdriver.Chrome()
     driver.get(URL)
     driver.implicitly_wait(20)
+
     page_source = driver.page_source
-    driver.quit()
+
+
     return page_source
 def cleanSalary(salary):
     if salary[0:11] =="Undisclosed":
@@ -20,17 +27,37 @@ def cleanSalary(salary):
         secondPart = ''.join(salaryParts[3:5])
         return firstPart + " " + secondPart
 def extractLinks(URL):
-    soup = BeautifulSoup(getHTML(URL), "html.parser")
-    resultsBox = soup.find("div",class_="css-110u7ph")
-    results = resultsBox.find_all("a")
+    driver = webdriver.Chrome()
+    driver.get(URL)
+    driver.implicitly_wait(20)
+
     linkArray = []
-    for index in range(3, len(results)):
-        link = results[index]
-        href = link.get("href")
-        hrefFinal = "https://justjoin.it" + str(href)
-        linkArray.append(hrefFinal)
+
+    for i in range(0, 6):
+        iframe = driver.find_element(By.CLASS_NAME, "jss244")
+        scroll_origin = ScrollOrigin.from_element(iframe)
+        ActionChains(driver) \
+            .scroll_from_origin(scroll_origin, 0, 1200 * i) \
+            .perform()
+        print(1200 * i)
+        if i==0:
+            time.sleep(30)
+        time.sleep(5)
+        page_source = driver.page_source
+
+        soup = BeautifulSoup(page_source, "html.parser")
+        resultsBox = soup.find("div",class_="css-110u7ph")
+        results = resultsBox.find_all("a")
+        print(resultsBox.prettify())
+        for index in range(3, len(results)):
+            link = results[index]
+            href = link.get("href")
+            hrefFinal = "https://justjoin.it" + str(href)
+            print(hrefFinal)
+            linkArray.append(hrefFinal)
 
     print(linkArray)
+    print(len(linkArray))
     return linkArray
 def getInfo(link):
     jobInfo = []
@@ -56,17 +83,15 @@ def getInfo(link):
         techDictionary[tech] = level
     jobInfo.append(techDictionary)
     jobInfo.append('-')
+    print(jobInfo)
     return jobInfo
+if __name__ == "__main__":
+    URL = "https://justjoin.it"
+    linkBox = extractLinks(URL)
 
-URL = "https://justjoin.it"
-linkBox = extractLinks(URL)
-
-scrappedInfo =[]
-for link in linkBox:
-    scrappedInfo.append(getInfo(link))
-print(scrappedInfo)
-CSVWritter.justITWritter(scrappedInfo)
-print(len(linkBox))
-
-# TODO: przewijanie strony
-#       ustandaryzowac writter
+    scrappedInfo =[]
+    for link in linkBox:
+        scrappedInfo.append(getInfo(link))
+    print(scrappedInfo)
+    CSVWritter.justITWritter(scrappedInfo)
+    print(len(linkBox))
