@@ -83,17 +83,15 @@ def getInfo(link):
         techDictionary[tech] = level
     jobInfo.append(techDictionary)
     jobInfo.append('-')
+    print(jobInfo)
     return jobInfo
+if __name__ == "__main__":
+    URL = "https://justjoin.it"
+    linkBox = extractLinks(URL)
 
-URL = "https://justjoin.it"
-linkBox = extractLinks(URL)
-
-scrappedInfo =[]
-for link in linkBox:
-    scrappedInfo.append(getInfo(link))
-print(scrappedInfo)
-CSVWritter.justITWritter(scrappedInfo)
-print(len(linkBox))
-
-# TODO: przewijanie strony
-#       ustandaryzowac writter
+    scrappedInfo =[]
+    for link in linkBox:
+        scrappedInfo.append(getInfo(link))
+    print(scrappedInfo)
+    CSVWritter.justITWritter(scrappedInfo)
+    print(len(linkBox))
