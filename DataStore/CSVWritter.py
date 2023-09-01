@@ -1,6 +1,6 @@
 import csv
 
-csv_filename = "jobData.csv"
+csv_filename = r"C:\Users\stkwi\PycharmProjects\IT_Analisis\DataStore\jobData.csv"
 
 def write(jobsList):
     with open(csv_filename, 'a',encoding='utf-8') as csv_file:
@@ -36,3 +36,26 @@ def checkHeader():
         actual_header = csv_file.readline()
 
     return actual_header == expected_header
+def easyRead():
+    job_data = []
+
+    with open(csv_filename, newline='', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            position = row['Position']
+            company = row['Company']
+            experience = row['Experience']
+            salary = row['Salary']
+            used_technologies = row['Used Technologies']
+            optional_technologies = row['Optional Technologies']
+
+            job_entry = [position,
+                          company,
+                          experience,
+                          salary,
+                          used_technologies,
+                          optional_technologies]
+
+            job_data.append(job_entry)
+
+    return job_data

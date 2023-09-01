@@ -6,7 +6,7 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.common.actions.wheel_input import ScrollOrigin
 from selenium.webdriver.common.by import By
 
-import CSVWritter
+from DataStore import CSVWritter
 
 
 def getHTML(URL):
@@ -33,7 +33,7 @@ def extractLinks(URL):
 
     linkArray = []
 
-    for i in range(0, 6):
+    for i in range(0, 3):
         iframe = driver.find_element(By.CLASS_NAME, "jss244")
         scroll_origin = ScrollOrigin.from_element(iframe)
         ActionChains(driver) \

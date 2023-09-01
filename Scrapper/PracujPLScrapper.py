@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-import CSVWritter
+from DataStore import CSVWritter
 from Job import Job
 
 
@@ -15,6 +15,7 @@ def makeSalaryUnify(salaryForHour):
         lowerCase = str(lowerCase) + " "
     else:
         lowerCase = ""
+        upperCase = coreSalary
         upperCase = upperCase[:-3]
         upperCase = int(upperCase)*160
     return lowerCase + str(upperCase)
@@ -81,6 +82,7 @@ def pageScrapper(rootLink,jobList):
         else:
             salary = salary.text
             if salary.endswith("godz."):
+                print(linkURL)
                 salaryFinal = makeSalaryUnify(salary)
             else:
                 salaryFinal = ''.join(salary.split(' ')[0:3]).replace("–"," ")
