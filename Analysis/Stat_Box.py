@@ -24,7 +24,7 @@ def getStat(technologies):
     technology_counter = Counter(individual_technologies)
     most_common_technologies = technology_counter.most_common()
 
-    print("Na "+ str(len(technologies))+ " ogłoszen o pracodawca wymagał znajomosci:")
+    print(str(len(technology_counter))+"\n"+"Na "+ str(len(technologies))+ " ogłoszen o pracodawca wymagał znajomosci:")
     for technology, count in most_common_technologies:
         print(f"{technology}: {count} razy")
 
