@@ -29,6 +29,7 @@ def justITWritter(jobsList):
         for job in jobsList:
             csv_writer.writerow(
                 [job[0], job[1],job[2],job[3],job[4],job[5]])
+
 def checkHeader():
     expected_header = "Position,Company,Experience,Salary,Used Technologies,Optional Technologies\n"
 
