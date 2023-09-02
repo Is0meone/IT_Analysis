@@ -5,7 +5,7 @@ from DataStore import CSVWritter
 
 #TODO: Nie trawi " {" musi być "{"
 def pretify():
-    arrayOne = CSVWritter.easyRead()
+    arrayOne = CSVWritter.easyRead(r"C:\Users\stkwi\PycharmProjects\IT_Analisis\DataStore\jobData.csv")
     statBox = []
     for job in arrayOne:
         techBox = job[4]
@@ -13,7 +13,7 @@ def pretify():
             technologies_dict = ast.literal_eval(techBox)
             techBox = ', '.join(technologies_dict.keys())
             statBox.append(techBox)
-        if techBox !='':
+        elif techBox !='':
             statBox.append(techBox)
     print(statBox)
 
@@ -27,6 +27,7 @@ def getStat(technologies):
     print(str(len(technology_counter))+"\n"+"Na "+ str(len(technologies))+ " ogłoszen o pracodawca wymagał znajomosci:")
     for technology, count in most_common_technologies:
         print(f"{technology}: {count} razy")
+    return most_common_technologies
 
 if __name__ == "__main__":
     techArray = pretify()
