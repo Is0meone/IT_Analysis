@@ -86,7 +86,6 @@ def pageScrapper(rootLink,jobList):
                 salaryFinal = makeSalaryUnify(salary)
             else:
                 salaryFinal = ''.join(salary.split(' ')[0:3]).replace("–"," ")
-                print("Kurwa salaarty hest "+ salary+"\n")
 
         # collection additional data very primitive return of levelSpec!!!
         levelSpec = getAdditionalData(linkURL, levelSpec, technologies, optTechnologies)
@@ -106,4 +105,6 @@ jobsList = []
 for i in range(1,6):
     link = "https://www.pracuj.pl/praca?cc=5015%2C5016&pn=" + str(i)
     pageScrapper(link,jobsList)
+
+print(jobsList)
 CSVWritter.write(jobsList)
