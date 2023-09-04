@@ -15,7 +15,7 @@ def pretify():
             statBox.append(techBox)
         elif techBox !='':
             statBox.append(techBox)
-    print(statBox)
+   # print(statBox)
 
     return statBox
 def getStat(technologies):
