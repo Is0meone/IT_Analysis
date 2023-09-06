@@ -13,7 +13,7 @@ class Technology:
                 return x
     def increseUsage(self,name):
         for x in self.childern:
-            if name == x.name:
+            if  name == x.name:
                 x.usage = x.usage + 1
 class Tree:
     def __init__(self):
