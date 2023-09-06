@@ -1,11 +1,13 @@
 from Analysis import Stat_Box
 from Analysis.FP_Growth.MyAlgorithm import prep_data
+from prep_data import first_Step
 
 
 class Technology:
-    def __init__(self,name):
+    def __init__(self,name,parent):
         self.name = name
         self.usage = 1
+        self.parent = parent
         self.childern = []
     def findChildern(self,name):
         for x in self.childern:
@@ -15,14 +17,16 @@ class Technology:
         for x in self.childern:
             if  name == x.name:
                 x.usage = x.usage + 1
+    def __str__(self):
+        return f"{self.name[0]}"
 class Tree:
     def __init__(self):
-        self.root = Technology("null")
+        self.root = Technology("null",None)
         self.node_Sum = 0
     def addNode(self,techArray):
         parentNode = self.root
         for tech in techArray:
-            new_Node = Technology(tech)
+            new_Node = Technology(tech,parentNode)
             if(self.node_Sum == 0):
                 self.root.childern.append(new_Node)
                 parentNode = new_Node
@@ -51,7 +55,7 @@ class Tree:
         else:
             print("├─ ", end="")
             indent += "│   "
-        print(node.name +" "+str(node.usage))
+        print(node.name +" "+str(node.usage) +" "+str(node.parent))
 
         child_count = len(node.childern)
         for i, child in enumerate(node.childern):
@@ -74,15 +78,37 @@ class Tree:
         for i, child in enumerate(node.childern):
             is_last = i == child_count - 1
             self.print_tree(child, indent + ("│   " if not is_last else "    "), is_last)
+    def pickInfo(self,root,tech_by_order):
+        tech_by_order = {key: tech_by_order[key] for key in reversed(list(tech_by_order.keys()))}
+        for tech in tech_by_order:
+            path = []
+            print(self.findNode(root,tech,path))
+            print(path)
+
+    def findNode(self,node,nameToLook,path):
+        path.append(node.name)
+        if(node.name==nameToLook):
+            return node
+        for child in node.childern:
+            return self.findNode(child, nameToLook,path)
+
+
+
+#Dodawanie do odwiedzonych
+#znalezienie wszystkich - lista obiektow
 
 
 # Usage example
 tree = Tree()
-dataSet = ["Edk, Kak, Mon, Niva, Odo ,Yka","Dik, Edk, Kak, Niva, Odo, Yka", "Abw, Edk, Kak, Mon", "Chj, Kak, Mon, Ubk, Yka","Chj, Edk, Ichj, Kak, Odo","Mon, Yka, Odo","Mon, Yka, Odo","Kak,Edk"]
+dataSet = ["Edk, Kak, Mon, Niva, Odo ,Yka","Dik, Edk, Kak, Niva, Odo, Yka", "Abw, Edk, Kak, Mon", "Chj, Kak, Mon, Ubk, Yka","Chj, Edk, Ichj, Kak, Odo","Mon, Yka, Odo","Mon, Yka, Odo","Kak,Edk","Dik,Dik,Dik,Dik"]
 #dataSet = Stat_Box.pretify()
-prepData = prep_data.prepareData(dataSet)
+preparing_object = first_Step()
+prepData = preparing_object.prepareData(dataSet)
 print(prepData)
 for data in prepData:
     tree.addNode(data)
 
 tree.print_tree_two(tree.root)
+print(preparing_object.key_to_sort)
+
+print(tree.pickInfo(tree.root,preparing_object.key_to_sort))
