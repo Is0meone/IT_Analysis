@@ -4,7 +4,7 @@ from prep_data import first_Step
 
 
 class Technology:
-    def __init__(self,name,parent):
+    def __init__(self,name,parent): #parent is unnessesary for proper func of this program and might be del, but it is good info for debug
         self.name = name
         self.usage = 1
         self.parent = parent
@@ -80,17 +80,33 @@ class Tree:
             self.print_tree(child, indent + ("│   " if not is_last else "    "), is_last)
     def pickInfo(self,root,tech_by_order):
         tech_by_order = {key: tech_by_order[key] for key in reversed(list(tech_by_order.keys()))}
-        for tech in tech_by_order:
-            path = []
-            print(self.findNode(root,tech,path))
-            print(path)
+        founded_nodes = []
 
-    def findNode(self,node,nameToLook,path):
+        for tech,value in tech_by_order.items():
+            while value>0:
+                path = []
+                usage_counter = [0]
+                print("teraz szuakmy "+ tech)
+                print(self.findNode(root,tech,path,founded_nodes,usage_counter))
+                print(usage_counter[0])
+                value -= usage_counter[0]
+                print(path)
+
+    def findNode(self, node, nameToLook, path,founded_nodes,usage_counter):
         path.append(node.name)
-        if(node.name==nameToLook):
+        if node.name == nameToLook and node not in founded_nodes:
+            #Uwzględnić ilość usage!!!
+            usage_counter[0] = node.usage
+            founded_nodes.append(node)
+            print(node.name + " Founded --" + str(usage_counter))
             return node
         for child in node.childern:
-            return self.findNode(child, nameToLook,path)
+            #if child not in founded_nodes: Mega mocne ale trzeba to przekminić, żeby optymalizować, może jakas zmienna dead end?
+                result = self.findNode(child, nameToLook, path,founded_nodes,usage_counter)
+                if result:
+                    return result
+                else: path.pop()
+        return None
 
 
 
@@ -99,8 +115,8 @@ class Tree:
 
 
 # Usage example
-tree = Tree()
-dataSet = ["Edk, Kak, Mon, Niva, Odo ,Yka","Dik, Edk, Kak, Niva, Odo, Yka", "Abw, Edk, Kak, Mon", "Chj, Kak, Mon, Ubk, Yka","Chj, Edk, Ichj, Kak, Odo","Mon, Yka, Odo","Mon, Yka, Odo","Kak,Edk","Dik,Dik,Dik,Dik"]
+tree = Tree()  #TODO: Ogarnąć dodawanie kilku takich samych tech naraz, może być pomocne przy kategoryzacji tech
+dataSet = ["Edk, Kak, Mon, Niva, Odo ,Yka","Dik, Edk, Kak, Niva, Odo, Yka", "Abw, Edk, Kak, Mon", "Chj, Kak, Mon, Ubk, Yka","Chj, Edk, Ichj, Kak, Odo","Mon, Yka, Odo","Mon, Yka, Odo","Kak,Edk","Dik","Dik","Dik","Dik"]
 #dataSet = Stat_Box.pretify()
 preparing_object = first_Step()
 prepData = preparing_object.prepareData(dataSet)
