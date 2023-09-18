@@ -98,13 +98,28 @@ def pageScrapper(rootLink,jobList):
 
     for job in jobsList:
         print(job)
+def extractAllLinks(i):
+    linkBox = []
+    for x in range(1, i):
+        link = "https://www.pracuj.pl/praca?cc=5015%2C5016&pn=" + str(i)
+        page = requests.get(link)
+        soup = BeautifulSoup(page.content, "html.parser")
+        results = soup.find("div", attrs={"data-test": "section-offers"})
+        jobOfferts = results.find_all("div", class_="listing_c1dc6in8")
 
-jobsList = []
+        for job in jobOfferts:
+            link = job.find("a", class_="listing_n194fgoq")
+            linkURL = link["href"]
+            linkBox.append(linkURL)
+    return linkBox
 
-#TODO: Multiple ideas to start and iterate pages! For now just couple pages
-for i in range(1,6):
-    link = "https://www.pracuj.pl/praca?cc=5015%2C5016&pn=" + str(i)
-    pageScrapper(link,jobsList)
+if __name__ == "__main__":
+    jobsList = []
 
-print(jobsList)
-CSVWritter.write(jobsList)
+    #TODO: Multiple ideas to start and iterate pages! For now just couple pages
+    for i in range(1,6):
+        link = "https://www.pracuj.pl/praca?cc=5015%2C5016&pn=" + str(i)
+        pageScrapper(link,jobsList)
+
+    print(jobsList)
+    CSVWritter.write(jobsList)

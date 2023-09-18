@@ -25,6 +25,12 @@ def extractLinks(URL):
     finally:
         driver.quit()
     return linkBox
+def extractAllLinks(i):
+    NoFluff_lB = []
+    for x in range(1, i):
+        NoFluff_lB.append(extractLinks("https://nofluffjobs.com/pl/backend?page=" + str(
+            x) + "&criteria=category%3Dfrontend,fullstack,mobile,embedded,testing,devops,architecture,security,gaming,artificial-intelligence,big-data,it-administrator,agile,support,erp,telecommunication"))
+    return NoFluff_lB
 def cleanSalary(salary):
     salary = salary.replace(" ","")
     salary = salary[:-3]
@@ -67,14 +73,14 @@ def getInfo(link):
     print(infoBox)
     return infoBox
 
+if __name__ == "__main__":
+    finalList = []
+    for x in range(1,3):
+        linkBox = extractLinks("https://nofluffjobs.com/pl/backend?page="+str(x)+"&criteria=category%3Dfrontend,fullstack,mobile,embedded,testing,devops,architecture,security,gaming,artificial-intelligence,big-data,it-administrator,agile,support,erp,telecommunication")
+        i = 0
+        for link in linkBox:
+            i = i+1
+            finalList.append(getInfo(link))
+            if(i==2): break
 
-finalList = []
-for x in range(1,3):
-    linkBox = extractLinks("https://nofluffjobs.com/pl/backend?page="+str(x)+"&criteria=category%3Dfrontend,fullstack,mobile,embedded,testing,devops,architecture,security,gaming,artificial-intelligence,big-data,it-administrator,agile,support,erp,telecommunication")
-    i = 0
-    for link in linkBox:
-        i = i+1
-        finalList.append(getInfo(link))
-        if(i==2): break
-
-CSVWritter.justITWritter(finalList)
+    CSVWritter.justITWritter(finalList)

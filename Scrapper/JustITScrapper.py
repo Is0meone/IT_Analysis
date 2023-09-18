@@ -33,7 +33,7 @@ def extractLinks(URL):
 
     linkArray = []
 
-    for i in range(0, 3):
+    for i in range(0, 30):
         iframe = driver.find_element(By.CLASS_NAME, "jss244")
         scroll_origin = ScrollOrigin.from_element(iframe)
         ActionChains(driver) \
@@ -48,7 +48,6 @@ def extractLinks(URL):
         soup = BeautifulSoup(page_source, "html.parser")
         resultsBox = soup.find("div",class_="css-110u7ph")
         results = resultsBox.find_all("a")
-        print(resultsBox.prettify())
         for index in range(3, len(results)):
             link = results[index]
             href = link.get("href")
