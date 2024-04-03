@@ -1,0 +1,330 @@
+Used_Angular
+Used_Microservices
+Used_Google Cloud Platform
+Used_Babel
+Used_ATLAS
+Used_IaC
+Used_Load
+Used_Confluence
+Used_Cypress
+Used_Kubernetes
+Used_Snowflake
+Used_Oracle
+Used_Resharper
+Used_(C1)
+Used_JavaScript
+Used_CoreJava
+Used_Monitoring systems
+Used_Artifactory
+Used_SAP ABAP
+Used_Informatica (Data Governance/Data Quality)
+Used_Django
+Used_Sales Cloud
+Used_Alibaba Cloud
+Used_T-SQL
+Used_WebService
+Used_JIRA
+Used_Appium
+Used_OOJS
+Used_ASP.NET MVC
+Used_FoxPro
+Used_Business Analysis
+Used_iOS
+Used_AWS
+Used_Salesforce
+Used_XML
+Used_Artifactory/Nexus
+Used_Redux
+Used_NumPy
+Used_migration
+Used_.NET 7
+Used_ASP.NET Core
+Used_Testing
+Used_Entity Framework
+Used_Java
+Used_MSSQL
+Used_Google Analytics
+Used_Blutooth Low Energy
+Used_jQuery
+Used_MobX
+Used_Elixir
+Used_GitLab
+Used_MS SQL
+Used_aws cloud
+Used_UX
+Used_GLPI
+Used_Azure SQL
+Used_Data Lake
+Used_SAP HANA
+Used_Teamscale
+Used_React.js
+Used_Java 11
+Used_stakeholder management
+Used_Grafana
+Used_Symfony 5
+Used_Scrum
+Used_JQL
+Used_Polski
+Used_Firestore
+Used_UniFlow
+Used_Xamarin
+Used_Sketch
+Used_Snowflake Data Cloud
+Used_Micorosft PowerPoint
+Used_Spring Framework
+Used_PHP 8
+Used_Azure
+Used_Github
+Used_AML
+Used_LWC
+Used_Microsoft Intune
+Used_Xcode
+Used_Active Directory
+Used_C
+Used_PIXI.JS
+Used_User Flows
+Used_DAX
+Used_Helm
+Used_Data Integration
+Used_PowerShell
+Used_banking
+Used_Nest.js
+Used_RESTApi
+Used_Gherkin
+Used_Linux
+Used_Manual Testing
+Used_Swift
+Used_Cloud
+Used_SonarCube
+Used_Debian
+Used_WordPress
+Used_Microsoft Project
+Used_FerrytFlow
+Used_Symfony
+Used_UI
+Used_ETL/ELT
+Used_PHP
+Used_MECM
+Used_German
+Used_(NATIVE)
+Used_PySpark
+Used_Windows Client
+Used_Bazy Danych
+Used_Python/Go/Rush/Bash
+Used_Vue.js
+Used_Gitlab CI
+Used_HTML5
+Used_Nagios
+Used_Lagom
+Used_API
+Used_Prometheus
+Used_COBOL
+Used_Workflow Engines
+Used_Embedded Systems
+Used_Nexus
+Used_NoSQL
+Used_Jenkins
+Used_Cisco IOS
+Used_Maven
+Used_SAP SD
+Used_HTML
+Used_Kotlin
+Used_Selenium
+Used_TypeScript
+Used_Gradle
+Used_Windows Server
+Used_Data Engineering
+Used_SoC
+Used_Jira
+Used_RESTful services
+Used_Pandas
+Used_Git
+Used_SQL
+Used_Bamboo
+Used_DynamoDB
+Used_SVN
+Used_QA Automation
+Used_SQL Alchemy
+Used_PolicyCenter
+Used_Networking
+Used_Swagger
+Used_BPMN
+Used_ASA
+Used_Visual Basic
+Used_DevOps
+Used_Adobe
+Used_Microsoft Office 365
+Used_Dynamics 365
+Used_HTTP
+Used_VMware
+Used_Python
+Used_Azure DevOps
+Used_PostgreSQL
+Used_GraphQL API
+Used_Oracle DB
+Used_Bitbucket
+Used_Prototyping
+Used_C#
+Used_Ansible
+Used_Web API (REST)
+Used_C# 11
+Used_React
+Used_React Native
+Used_Spring Boot
+Used_MongoDB
+Used_Boto3
+Used_DevOps tools
+Used_GCP
+Used_Apex
+Used_Powershell
+Used_Polish
+Used_Shell Scripting
+Used_RXJS
+Used_TCP/IP
+Used_Less
+Used_MS Excel
+Used_Red Hat
+Used_UML
+Used_Abstract
+Used_.NET Core
+Used_Java 17+
+Used_MS Visio
+Used_Commerce Cloud
+Used_Terraform
+Used_RestAPI
+Used_Clipper
+Used_Miro
+Used_Go
+Used_CSS3
+Used_Hibernate
+Used_MariaDB
+Used_wireframing
+Used_OpenAPI
+Used_Angielski B2
+Used_.Net
+Used_Databricks
+Used_Experience Cloud
+Used_ETL
+Used_cloudsense
+Used_WooCommerce
+Used_Windows
+Used_Amazon AWS
+Used_Docker / Kubernetes
+Used_Golang
+Used_PHP 7.x
+Used_Bootstrap
+Used_DBA
+Used_Amazon Web Services
+Used_Enterprise Architect
+Used_GitHub
+Used_Process Mapping
+Used_Keycloak
+Used_CI/CD
+Used_webpack
+Used_SharePoint
+Used_PL/SQL
+Used_SAP
+Used_JDBC
+Used_Python/Bash
+Used_ECM
+Used_integration
+Used_Apache Spark
+Used_Meraki
+Used_Microsoft Excel
+Used_C++
+Used_Problem Solving
+Used_(B2)
+Used_SASS
+Used_Microsoft Azure Cloud
+Used_CSS
+Used_Node.js
+Used_SoapUI
+Used_Shell
+Used_Scala
+Used_Harbour
+Used_Android Studio
+Used_GraphQL
+Used_JSON
+Used_GitFlow
+Used_Microsoft Azure
+Used_REST API
+Used_Project Management
+Used_Microsoft Power BI
+Used_SCSS
+Used_Android
+Used_SwiftUI
+Used_Heroku
+Used_Bash
+Used_Zabbix
+Used_RabbitMQ
+Used_Elasticsearch
+Used_NextJS
+Used_NHibernate
+Used_oauth
+Used_Angielski
+Used_RTOS
+Used_Automated Testing
+Used_.NET C#
+Used_Redis
+Used_REST
+Used_Doctrine
+Used_Microsoft SQL Server
+Used_JS
+Used_Therefore Platform
+Used_EDI
+Used_Lua
+Used_GitHub Actions
+Used_Visual Studio
+Used_.NET
+Used_Redmine
+Used_Rider
+Used_MS Project
+Used_Gosu
+Used_Celery
+Used_OpenShift
+Used_Express
+Used_Kafka
+Used_UX/UI
+Used_Qt
+Used_Infrastructure as a code
+Used_SF APIs
+Used_Visualforce
+Used_English
+Used_Postman
+Used_Cisco
+Used_FastAPI
+Used_Guidewire
+Used_pytest
+Used_AVRO
+Used_QNX
+Used_React Context
+Used_Yocto
+Used_ZeroHeight
+Used_NgRx
+Used_Ruby
+Used_IntelliJ
+Used_Apache Tomcat
+Used_Document Management
+Used_Docker
+Used_Power BI
+Used_balancing
+Used_Palantir Foundry
+Used_Playwright
+Used_FortiGate
+Used_Asana
+Used_JUnit
+Used_Product design
+Used_Actions
+Used_SCCM
+Used_Kibana
+Used_HTML5 / CSS3
+Used_NoSql
+Used_Laravel
+Used_Security
+Used_LESS
+Used_DWH
+Used_Unreal Engine
+Used_pyTest
+Used_Terraform/Ansible
+Used_MySQL
+Used_Figma

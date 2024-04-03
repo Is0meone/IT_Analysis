@@ -1,0 +1,296 @@
+,Position,Company,Experience,Salary,Used Technologies,Optional Technologies,Salary_Min,Salary_Max,Parsed Used Technologies
+0,Embedded Software Engineer,Fluke Corportaion,mid,13000 18000,"{'C': 'regular', 'C++': 'regular', 'Linux': 'regular', 'SVN': 'regular', 'Yocto': 'nice to have', 'Qt': 'nice to have'}",-,13000,18000.0,"['C', 'C++', 'Linux', 'SVN', 'Yocto', 'Qt']"
+2,.NET Developer,UN7,mid,20000 28000,{'.Net': 'advanced'},-,20000,28000.0,['.Net']
+10,Data Transformation Consultant,Accenture,mid,13000 25000,"{'SQL': 'advanced', 'Python': 'advanced', 'PySpark': 'advanced', 'Apache Spark': 'regular', 'Databricks': 'regular', 'Palantir Foundry': 'regular', 'JIRA': 'junior', 'Confluence': 'junior', 'Git': 'junior', 'Docker': 'junior'}",-,13000,25000.0,"['SQL', 'Python', 'PySpark', 'Apache Spark', 'Databricks', 'Palantir Foundry', 'JIRA', 'Confluence', 'Git', 'Docker']"
+13,Senior DevOps Engineer (Azure),GetInData | Part of Xebia,senior,25200 31080,"{'Azure': 'advanced', 'Kubernetes': 'advanced', 'Python': 'advanced', 'Terraform': 'regular', 'Gitlab CI': 'regular', 'GitHub Actions': 'regular', 'Azure DevOps': 'regular', 'Databricks': 'nice to have'}",-,25200,31080.0,"['Azure', 'Kubernetes', 'Python', 'Terraform', 'Gitlab CI', 'GitHub Actions', 'Azure DevOps', 'Databricks']"
+26,DevOps Engineer #Kubernetes (m/f/x),Cpl Poland,mid,15000 24000,"{'Linux': 'advanced', 'Kubernetes': 'regular', 'Ansible': 'regular', 'GitLab': 'regular', 'Python/Bash': 'regular', 'Docker': 'junior'}",-,15000,24000.0,"['Linux', 'Kubernetes', 'Ansible', 'GitLab', 'Python/Bash', 'Docker']"
+27,Senior DevOps Cloud Engineer,Bayer Sp. z o.o.,senior,18000 26000,"{'AWS': 'advanced', 'IaC': 'advanced', 'Terraform': 'advanced', 'Docker': 'regular', 'Kubernetes': 'regular', 'Workflow Engines': 'regular', 'Python': 'regular', 'Shell Scripting': 'regular'}",-,18000,26000.0,"['AWS', 'IaC', 'Terraform', 'Docker', 'Kubernetes', 'Workflow Engines', 'Python', 'Shell Scripting']"
+28,Senior Cloud Engineer with Python,Bayer Sp. z o.o.,senior,18000 26000,"{'Python': 'advanced', 'API': 'regular', 'AWS': 'regular', 'Terraform': 'regular', 'Docker': 'regular', 'Kubernetes': 'regular', 'Workflow Engines': 'nice to have'}",-,18000,26000.0,"['Python', 'API', 'AWS', 'Terraform', 'Docker', 'Kubernetes', 'Workflow Engines']"
+29,Senior Java Developer,People More P.S.A.,senior,23000 32000,"{'Java': 'master', 'Spring Boot': 'advanced', 'WebService': 'advanced', 'Microservices': 'advanced', 'React': 'junior'}",-,23000,32000.0,"['Java', 'Spring Boot', 'WebService', 'Microservices', 'React']"
+30,DevOps,Skillspark,senior,33600 40000,"{'DevOps': 'advanced', 'CI/CD': 'regular', 'GitHub': 'regular', 'Jenkins': 'regular'}",-,33600,40000.0,"['DevOps', 'CI/CD', 'GitHub', 'Jenkins']"
+31,Experienced DevOps Engineer (Azure),Conscensia,senior,28000 33000,"{'Azure': 'master', 'Kubernetes': 'master', 'Docker': 'master'}",-,28000,33000.0,"['Azure', 'Kubernetes', 'Docker']"
+32,DevOps Engineer,Piwik PRO,mid,13000 22000,"{'Azure': 'regular', 'Kubernetes': 'regular', 'Docker': 'regular', 'Python': 'regular', 'Golang': 'regular', 'Bazy Danych': 'regular', 'Prometheus': 'regular', 'Grafana': 'regular', 'Terraform': 'regular'}",-,13000,22000.0,"['Azure', 'Kubernetes', 'Docker', 'Python', 'Golang', 'Bazy Danych', 'Prometheus', 'Grafana', 'Terraform']"
+34,Frontend Developer,Mudita,mid,10000 13000,"{'TypeScript': 'advanced', 'React': 'advanced', 'CSS': 'advanced', 'GraphQL API': 'advanced', 'REST API': 'advanced', 'English': 'advanced'}",-,10000,13000.0,"['TypeScript', 'React', 'CSS', 'GraphQL API', 'REST API', 'English']"
+36,JIRA Administrator,ArdentCode,mid,10500 14500,"{'JIRA': 'advanced', 'JQL': 'advanced', 'Confluence': 'regular', 'Scrum': 'junior', 'Amazon AWS': 'nice to have'}",-,10500,14500.0,"['JIRA', 'JQL', 'Confluence', 'Scrum', 'Amazon AWS']"
+44,Thereforce Canon Architect,Gazelle Global IT Recruitment,senior,26790 35720,"{'Therefore Platform': 'advanced', 'Document Management': 'advanced', 'migration': 'advanced', 'integration': 'advanced', 'Amazon AWS': 'advanced', 'Microsoft Azure Cloud': 'advanced'}",-,26790,35720.0,"['Therefore Platform', 'Document Management', 'migration', 'integration', 'Amazon AWS', 'Microsoft Azure Cloud']"
+47,Senior Salesforce Administrator,ITLT,senior,25000 31000,"{'Salesforce': 'advanced', 'English': 'advanced', 'Cloud': 'regular', 'Monitoring systems': 'regular', 'Data Integration': 'regular'}",-,25000,31000.0,"['Salesforce', 'English', 'Cloud', 'Monitoring systems', 'Data Integration']"
+51,QA Engineer,Stonly,mid,13000 15500,"{'Manual Testing': 'regular', 'HTML5 / CSS3': 'nice to have', 'JavaScript': 'nice to have'}",-,13000,15500.0,"['Manual Testing', 'HTML5 / CSS3', 'JavaScript']"
+53,Senior Business Analyst - banking 💸,ITDS,senior,19950 24000,"{'Business Analysis': 'advanced', 'English': 'advanced', 'Process Mapping': 'advanced', 'MS Excel': 'advanced', 'MS Visio': 'advanced', 'stakeholder management': 'advanced', 'MS Project': 'regular', 'Testing': 'regular', 'banking': 'regular', 'Project Management': 'junior'}",-,19950,24000.0,"['Business Analysis', 'English', 'Process Mapping', 'MS Excel', 'MS Visio', 'stakeholder management', 'MS Project', 'Testing', 'banking', 'Project Management']"
+54,Remote Java Backend Developer,Kingfisher plc,mid,15000 21000,"{'Java': 'master', 'JSON': 'advanced', 'CI/CD': 'regular', 'SQL': 'regular'}",-,15000,21000.0,"['Java', 'JSON', 'CI/CD', 'SQL']"
+55,Middle/Senior DevOps Engineer,Wonga.pl,mid,15000 20000,"{'DevOps': 'regular', 'Problem Solving': 'regular', 'Powershell': 'regular', 'Bash': 'regular'}",-,15000,20000.0,"['DevOps', 'Problem Solving', 'Powershell', 'Bash']"
+56,Golang Developer,Idego,mid,17000 20000,"{'English': 'advanced', 'Golang': 'advanced', 'Redis': 'nice to have', 'PostgreSQL': 'nice to have', 'Kubernetes': 'nice to have', 'Firestore': 'nice to have', 'GCP': 'nice to have', 'Cloud': 'nice to have'}",-,17000,20000.0,"['English', 'Golang', 'Redis', 'PostgreSQL', 'Kubernetes', 'Firestore', 'GCP', 'Cloud']"
+57,Project Manager,Applover,mid,10000 14000,"{'English': 'master', 'Polish': 'master', 'JIRA': 'regular'}",-,10000,14000.0,"['English', 'Polish', 'JIRA']"
+58,Remote Quality Engineer,Kingfisher plc,mid,12000 18000,"{'Jenkins': 'advanced', 'JIRA': 'advanced', 'GitLab': 'advanced', 'Confluence': 'regular', 'CI/CD': 'regular', 'SQL': 'regular'}",-,12000,18000.0,"['Jenkins', 'JIRA', 'GitLab', 'Confluence', 'CI/CD', 'SQL']"
+60,Senior DWH Developer,JellyTech Sp. z o.o.,senior,18000 28000,"{'ETL': 'advanced', 'DWH': 'advanced', 'SQL': 'advanced', 'Microsoft Azure': 'nice to have', 'Databricks': 'nice to have'}",-,18000,28000.0,"['ETL', 'DWH', 'SQL', 'Microsoft Azure', 'Databricks']"
+61,Senior Business Analyst - banking 💸,ITDS,senior,19950 24000,"{'Business Analysis': 'advanced', 'English': 'advanced', 'Process Mapping': 'advanced', 'MS Excel': 'advanced', 'MS Visio': 'advanced', 'stakeholder management': 'advanced', 'MS Project': 'regular', 'Testing': 'regular', 'banking': 'regular', 'Project Management': 'junior'}",-,19950,24000.0,"['Business Analysis', 'English', 'Process Mapping', 'MS Excel', 'MS Visio', 'stakeholder management', 'MS Project', 'Testing', 'banking', 'Project Management']"
+62,Embedded Firmware Engineer,Rebels Software Sp. z o.o.,senior,16800 25200,"{'Embedded Systems': 'advanced', 'C': 'advanced', 'RTOS': 'regular', 'TCP/IP': 'regular', 'Networking': 'regular', 'Blutooth Low Energy': 'regular'}",-,16800,25200.0,"['Embedded Systems', 'C', 'RTOS', 'TCP/IP', 'Networking', 'Blutooth Low Energy']"
+64,QA Automation Engineer,Luxoft Poland,mid,14000 17000,"{'QA Automation': 'master', 'Java': 'master', 'REST API': 'advanced', 'Jenkins': 'advanced', 'Docker / Kubernetes': 'nice to have', 'aws cloud': 'nice to have'}",-,14000,17000.0,"['QA Automation', 'Java', 'REST API', 'Jenkins', 'Docker / Kubernetes', 'aws cloud']"
+66,Full-Stack Engineer,ArdentCode,senior,16000 25000,"{'TypeScript': 'advanced', 'Node.js': 'advanced', 'JavaScript': 'advanced', 'Angular': 'regular', 'AWS': 'junior'}",-,16000,25000.0,"['TypeScript', 'Node.js', 'JavaScript', 'Angular', 'AWS']"
+70,Backend .NET Developer,it-solve,mid,13400 18000,"{'MS SQL': 'regular', 'Git': 'regular', '.NET Core': 'regular', 'ASP.NET Core': 'regular', 'C#': 'regular', 'Microsoft Azure': 'regular', 'Amazon AWS': 'regular'}",-,13400,18000.0,"['MS SQL', 'Git', '.NET Core', 'ASP.NET Core', 'C#', 'Microsoft Azure', 'Amazon AWS']"
+72,Back-end Team Leader,Startup House,senior,18800 27200,"{'Node.js': 'advanced', 'TypeScript': 'advanced', 'Nest.js': 'regular'}",-,18800,27200.0,"['Node.js', 'TypeScript', 'Nest.js']"
+73,Front-end (VUE) Developer,it-solve,mid,13400 18000,"{'Vue.js': 'regular', 'JS': 'regular', 'HTML5': 'regular', 'CSS3': 'regular', 'SASS': 'regular', 'Git': 'junior', 'TypeScript': 'nice to have'}",-,13400,18000.0,"['Vue.js', 'JS', 'HTML5', 'CSS3', 'SASS', 'Git', 'TypeScript']"
+74,Fullstack JavaScript Developer,StratsLab,senior,20000 40000,"{'JavaScript': 'advanced', 'Python': 'nice to have', 'React': 'nice to have', 'TypeScript': 'nice to have'}",-,20000,40000.0,"['JavaScript', 'Python', 'React', 'TypeScript']"
+75,Senior Java Developer,Lufthansa Systems,senior,10000 29400,"Java, Spring Boot, Git, Docker, JUnit, Angular","Jenkins (CI/CD), Ansible, LogBack, MongoDB, Kafka, Swagger, Maven",10000,29400.0,"['Java', 'Spring Boot', 'Git', 'Docker', 'JUnit', 'Angular']"
+76,DevOps Engineer,JellyTech,senior,22000 26800,"Python, Java, AWS, Git, Nexus, Artifactory, Gradle, Teamscale, CI/CD",,22000,26800.0,"['Python', 'Java', 'AWS', 'Git', 'Nexus', 'Artifactory', 'Gradle', 'Teamscale', 'CI/CD']"
+86,Senior AWS Python Developer,ITDS Polska Sp. z o.o.,senior,21000 25200,"AWS, Python, Linux, Jenkins, Git, Ansible",Terraform,21000,25200.0,"['AWS', 'Python', 'Linux', 'Jenkins', 'Git', 'Ansible']"
+87,Testing and Senior QA Specialist,ITDS Polska Sp. z o.o.,senior,18900 24150,,,18900,24150.0,[]
+88,Machine Learning,ITDS Polska Sp. z o.o.,mid,18900 23100,"Java, Python, Jenkins, Ansible, Git",,18900,23100.0,"['Java', 'Python', 'Jenkins', 'Ansible', 'Git']"
+89,Lead Cloud Security Engineer,ITDS Polska Sp. z o.o.,senior,21000 25200,"Microsoft Azure, Amazon Web Services, Google Cloud Platform, Alibaba Cloud, Python, Bash, PowerShell","Jenkins, Terraform, Ansible, GitHub, Nexus",21000,25200.0,"['Microsoft Azure', 'Amazon Web Services', 'Google Cloud Platform', 'Alibaba Cloud', 'Python', 'Bash', 'PowerShell']"
+91,Elektronik - Programista,MULTI ROTOR GENERATOR Sp. z o.o.,mid,6000 8500,,,6000,8500.0,[]
+92,Software Architect,Recruit Europe Sp.zo.o.,,28000 41000,,,28000,41000.0,[]
+93,Software Developer C++ / Linux / Buildroot,Recruit Europe Sp.zo.o.,,28000 41000,,,28000,41000.0,[]
+94,Embedded Software Developer with focus on Image processing,Recruit Europe Sp.zo.o.,,28000 41000,,,28000,41000.0,[]
+95,React Senior Developer,AppVelocity Inc,,18000 28000,,,18000,28000.0,[]
+98,Key Account Manager - branża IT,VENTI Efektywne Rozwiązania Internetowe,mid,7000 15500,,,7000,15500.0,[]
+100,SAP Basis Engineer for System Integration,CSHARK sp. z o.o.,,24000 33500,,,24000,33500.0,[]
+102,Tester Manualny,Team Connect Sp. z o.o.,mid,11200 14400,"REST API, Postman, Swagger, SQL, Kibana, Jira, Confluence",,11200,14400.0,"['REST API', 'Postman', 'Swagger', 'SQL', 'Kibana', 'Jira', 'Confluence']"
+105,Junior .NET Developer,EMPLO sp. z o.o.,junior,4000 10000,"C#, ASP.NET MVC, Entity Framework, SQL, .NET, .NET Core, Docker","React.js, TypeScript, CSS, HTML",4000,10000.0,"['C#', 'ASP.NET MVC', 'Entity Framework', 'SQL', '.NET', '.NET Core', 'Docker']"
+106,Programista .NET,EMPLO sp. z o.o.,mid,9000 16000,"C#, ASP.NET MVC, Entity Framework, SQL, Docker, .NET Core, .NET","React.js, CSS, HTML, TypeScript",9000,16000.0,"['C#', 'ASP.NET MVC', 'Entity Framework', 'SQL', 'Docker', '.NET Core', '.NET']"
+109,Technical Support Specialist I with French/Spanish (2nd line),JAMF,,8750 11000,,,8750,11000.0,[]
+110,Technical Support Engineer,Catalogic Software,mid,10000 15000,,"Bash, PowerShell, Microsoft Exchange, Oracle",10000,15000.0,[]
+111,Test Automation Engineer (QA),Catalogic Software,mid,5000 10000,"pyTest, Selenium, Java, HTML, CSS, JavaScript, Docker, Git, GitFlow","Cypress, Compose, Swarm",5000,10000.0,"['pyTest', 'Selenium', 'Java', 'HTML', 'CSS', 'JavaScript', 'Docker', 'Git', 'GitFlow']"
+112,Java Developer,Catalogic Software,mid,10000 20000,"Java, Spring Framework, Docker, Git, GitFlow","Maven, Gradle, Composer, Swarm",10000,20000.0,"['Java', 'Spring Framework', 'Docker', 'Git', 'GitFlow']"
+113,C# Developer,Catalogic Software,mid,10000 15000,"C#, .NET Core, HTTP, SQL, Entity Framework",,10000,15000.0,"['C#', '.NET Core', 'HTTP', 'SQL', 'Entity Framework']"
+114,Junior IT Specialist,Catalogic Software,junior,5000 9000,,,5000,9000.0,[]
+115,C Developer,Catalogic Software,mid,10000 15000,"C, Linux","C#, Microsoft SQL Server, Microsoft Exchange, SharePoint, Oracle, Volume Shadow Copy Service",10000,15000.0,"['C', 'Linux']"
+116,Technical Documentation Writer,Catalogic Software,mid,5000 10000,,,5000,10000.0,[]
+117,Młodszy Specjalista ds. IT,Prime Engineering Poland,junior,5000 8000,,,5000,8000.0,[]
+118,Administrator Systemów IT,Prime Engineering Poland,mid,14000 18000,"Windows Server, Active Directory, Windows Client, MECM, VMware, PowerShell",Linux,14000,18000.0,"['Windows Server', 'Active Directory', 'Windows Client', 'MECM', 'VMware', 'PowerShell']"
+119,PowerBI Support,Prime Engineering Poland,mid,16000 21000,"Microsoft Power BI, Linux, Oracle, SQL, Shell, Bitbucket, Jenkins, Artifactory, Ansible",,16000,21000.0,"['Microsoft Power BI', 'Linux', 'Oracle', 'SQL', 'Shell', 'Bitbucket', 'Jenkins', 'Artifactory', 'Ansible']"
+125,Senior Node.js Developer,MERIXSTUDIO SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,senior,13000 23000,"Node.js, TypeScript, PostgreSQL, MongoDB, DynamoDB, Express, Nest.js, Linux, AWS, Docker, Redis, RabbitMQ","Google Cloud Platform, Microsoft Azure",13000,23000.0,"['Node.js', 'TypeScript', 'PostgreSQL', 'MongoDB', 'DynamoDB', 'Express', 'Nest.js', 'Linux', 'AWS', 'Docker', 'Redis', 'RabbitMQ']"
+130,Frontend Developer,E NET PRODUCTION,mid,10000 18000,"JavaScript, SASS, SCSS, Vue.js, Git","TypeScript, Docker",10000,18000.0,"['JavaScript', 'SASS', 'SCSS', 'Vue.js', 'Git']"
+131,PHP Developer,E NET PRODUCTION,mid,10000 18000,"PHP, Symfony, MySQL","Redis, Elasticsearch, RabbitMQ, Varnish, Docker",10000,18000.0,"['PHP', 'Symfony', 'MySQL']"
+132,Software Tester,E NET PRODUCTION,mid,10000 14000,"REST API, JavaScript, Cypress, SQL, TypeScript","Linux, BrowserStack, Jira, Elasticsearch, Redis, Git, NoSQL",10000,14000.0,"['REST API', 'JavaScript', 'Cypress', 'SQL', 'TypeScript']"
+133,AUTOSAR Engineer,L&T Technology Services Limited (Sp. z o.o.) - Oddział w Polsce,mid,16000 24000,,,16000,24000.0,[]
+140,iOS Developer (mPilot),Lufthansa Systems,senior,10000 29400,"Swift, Git, SwiftUI, Jira","UIKit, CoreData, XCTest, Xcode, Fastlane, Swift Package Manager",10000,29400.0,"['Swift', 'Git', 'SwiftUI', 'Jira']"
+141,iOS Developer (mPilot),Lufthansa Systems,mid,8000 16000,"Swift, Git, SwiftUI, Jira","UIKit, CoreData, XCTest, Xcode, Fastlane, Swift Package Manager",8000,16000.0,"['Swift', 'Git', 'SwiftUI', 'Jira']"
+144,Product Owner / System Analyst,Consdata S.A.,mid,10500 19000,BPMN,,10500,19000.0,['BPMN']
+145,Regular Fullstack Developer (Java+Angular),Consdata S.A.,mid,11300 21000,"Java, Spring Framework, Angular, PostgreSQL, MongoDB, Docker","Kafka, OpenShift",11300,21000.0,"['Java', 'Spring Framework', 'Angular', 'PostgreSQL', 'MongoDB', 'Docker']"
+146,Regular Java Developer,Consdata S.A.,mid,11300 21000,"Java, Spring Framework, PostgreSQL, MongoDB, Docker","Kafka, OpenShift",11300,21000.0,"['Java', 'Spring Framework', 'PostgreSQL', 'MongoDB', 'Docker']"
+147,Senior Frontend / Fullstack Developer,Consdata S.A.,senior,14900 27220,"Angular, TypeScript, Java, Spring Framework, IntelliJ, Git, Docker, OpenShift",,14900,27220.0,"['Angular', 'TypeScript', 'Java', 'Spring Framework', 'IntelliJ', 'Git', 'Docker', 'OpenShift']"
+148,Senior Fullstack Developer (Java+Angular),Consdata S.A.,senior,14900 27220,"Java, Spring Framework, Angular, PostgreSQL, MongoDB, Docker","Kafka, OpenShift",14900,27220.0,"['Java', 'Spring Framework', 'Angular', 'PostgreSQL', 'MongoDB', 'Docker']"
+149,Senior Java Developer,Consdata S.A.,senior,14900 27220,"Java, Spring Framework, Docker, Git, TypeScript, MongoDB","Kafka, OpenShift",14900,27220.0,"['Java', 'Spring Framework', 'Docker', 'Git', 'TypeScript', 'MongoDB']"
+159,"Fullstack Developer (Node, React, TypeScript, React-Native)",JellyTech,mid,19200 25600,"Node.js, React.js, TypeScript",React Native,19200,25600.0,"['Node.js', 'React.js', 'TypeScript']"
+160,Salesforce Developer,JellyTech,mid,21000 26900,"Salesforce, Apex, LWC, SF APIs, Visualforce, React.js, jQuery, cloudsense",,21000,26900.0,"['Salesforce', 'Apex', 'LWC', 'SF APIs', 'Visualforce', 'React.js', 'jQuery', 'cloudsense']"
+161,Java Developer,JellyTech,senior,21800 26800,"Java, Spring Framework, Maven, JavaScript",,21800,26800.0,"['Java', 'Spring Framework', 'Maven', 'JavaScript']"
+162,Java Developer,JellyTech,senior,21800 26800,"Java, React.js, React Native, NextJS, Kubernetes, MySQL, MariaDB",,21800,26800.0,"['Java', 'React.js', 'React Native', 'NextJS', 'Kubernetes', 'MySQL', 'MariaDB']"
+163,"Fullstack Developer (React.js, NextJS, Java)",JellyTech,senior,21800 26800,"React.js, NextJS, Java, React Native, Go, Kubernetes, Scala",,21800,26800.0,"['React.js', 'NextJS', 'Java', 'React Native', 'Go', 'Kubernetes', 'Scala']"
+191,C++ Game Developer,NOVOMATIC Technologies Poland Sp. z o.o.,mid,12000 23000,"C++, SVN, Git",,12000,23000.0,"['C++', 'SVN', 'Git']"
+192,FullStack Developer,NOVOMATIC Technologies Poland Sp. z o.o.,mid,10000 18000,"JavaScript, TypeScript, React.js, Node.js","C#, C++",10000,18000.0,"['JavaScript', 'TypeScript', 'React.js', 'Node.js']"
+193,DevOps Engineer,NOVOMATIC Technologies Poland Sp. z o.o.,mid,14000 28000,"Linux, Kubernetes, AWS, Ansible, Terraform",,14000,28000.0,"['Linux', 'Kubernetes', 'AWS', 'Ansible', 'Terraform']"
+194,Java Developer,NOVOMATIC Technologies Poland Sp. z o.o.,mid,14000 28000,"Java, Spring Boot, Git, Docker",Node.js,14000,28000.0,"['Java', 'Spring Boot', 'Git', 'Docker']"
+195,Embedded C++ Developer,NOVOMATIC Technologies Poland Sp. z o.o.,mid,12000 20500,"C++, C",,12000,20500.0,"['C++', 'C']"
+196,Backend Java Developer,NOVOMATIC Technologies Poland Sp. z o.o.,mid,14000 28000,"Lagom, Spring Boot, Java",,14000,28000.0,"['Lagom', 'Spring Boot', 'Java']"
+197,C++ Software Developer,NOVOMATIC Technologies Poland Sp. z o.o.,mid,12000 18000,"C++, Linux, Jenkins",,12000,18000.0,"['C++', 'Linux', 'Jenkins']"
+198,Atlassian Administrator,NOVOMATIC Technologies Poland Sp. z o.o.,mid,6500 12000,Linux,,6500,12000.0,['Linux']
+203,Data Engineer,ITDS Polska Sp. z o.o.,,18900 24150,,,18900,24150.0,[]
+205,Frontend Developer,ITDS Polska Sp. z o.o.,mid,19950 26250,"React.js, Vue.js, CSS, JavaScript, TypeScript, HTML, Git","AWS, Docker, Kubernetes, CBCD, Jenkins, Groovy, Nexus, Splunk",19950,26250.0,"['React.js', 'Vue.js', 'CSS', 'JavaScript', 'TypeScript', 'HTML', 'Git']"
+207,Sharepoint Developer,ITDS Polska Sp. z o.o.,senior,26250 27300,".NET, C#, React.js, SharePoint, TypeScript, SQL, NoSQL, Git, Microsoft Office 365, GitHub, CSS, Azure DevOps",,26250,27300.0,"['.NET', 'C#', 'React.js', 'SharePoint', 'TypeScript', 'SQL', 'NoSQL', 'Git', 'Microsoft Office 365', 'GitHub', 'CSS', 'Azure DevOps']"
+209,Fullstack Engineer,APPLISCALE sp. z o.o.,mid,10000 22000,"JavaScript, TypeScript, Node.js, Java, Kotlin, Python, C++, Golang",,10000,22000.0,"['JavaScript', 'TypeScript', 'Node.js', 'Java', 'Kotlin', 'Python', 'C++', 'Golang']"
+212,Data Warehouse Engineer - Developer,ITDS Polska Sp. z o.o.,mid,16800 23100,"SQL, T-SQL, MSSQL",Microsoft Azure,16800,23100.0,"['SQL', 'T-SQL', 'MSSQL']"
+215,Data Warehouse Analyst,ITDS Polska Sp. z o.o.,mid,14700 21000,"Oracle, PL/SQL, SQL, T-SQL, MSSQL",,14700,21000.0,"['Oracle', 'PL/SQL', 'SQL', 'T-SQL', 'MSSQL']"
+218,Cobol Developer,ITDS Polska Sp. z o.o.,mid,16800 27300,"COBOL, SQL",,16800,27300.0,"['COBOL', 'SQL']"
+221,Senior Cloud Infrastructure Engineer,SmartRecruiters INC,senior,18000 28500,"AWS, Kubernetes, Bash, Python, Terraform, Networking, Linux, IaC","Java, SQL, Ansible, Databases, GCP",18000,28500.0,"['AWS', 'Kubernetes', 'Bash', 'Python', 'Terraform', 'Networking', 'Linux', 'IaC']"
+222,PMO / Project Manager,ITDS Polska Sp. z o.o.,manager,16800 20160,"Microsoft Project, Jira, Confluence, SharePoint, Microsoft Excel, Micorosft PowerPoint",,16800,20160.0,"['Microsoft Project', 'Jira', 'Confluence', 'SharePoint', 'Microsoft Excel', 'Micorosft PowerPoint']"
+223,Senior SAP CRM Developer,7N Sp. z o.o.,senior,26880 33600,"SAP, SAP ABAP, SAP HANA",,26880,33600.0,"['SAP', 'SAP ABAP', 'SAP HANA']"
+234,Xamarin Developer,ITFS sp. z o.o.,mid,22400 27200,"Xamarin, C#, .NET, Git",,22400,27200.0,"['Xamarin', 'C#', '.NET', 'Git']"
+235,Software Engineer .NET | High Load Platform,Adform Sp. z o.o.,mid,12000 25000,".NET, SQL, NoSQL, Git, Java, Scala",".NET Core, Puppet, Terraform, Ansible, Docker, Kubernetes, RabbitMQ, Kafka",12000,25000.0,"['.NET', 'SQL', 'NoSQL', 'Git', 'Java', 'Scala']"
+237,Software Engineer (High Load),Adform Sp. z o.o.,mid,18000 35000,"C#, C++, C, Lua, Java, Scala",,18000,35000.0,"['C#', 'C++', 'C', 'Lua', 'Java', 'Scala']"
+246,Test Manager,Mindbox S.A.,manager,25200 29400,,,25200,29400.0,[]
+253,Senior JavaScript Fullstack Developer,Boldare,,13400 27000,,,13400,27000.0,[]
+258,Golang Backend Developer,Prime Engineering Poland,senior,16000 18000,Golang,"Node.js, Java, Python, Jira, Docker, Kubernetes",16000,18000.0,['Golang']
+261,Senior Test Automation Engineer,Prime Engineering Poland,senior,17000 21000,"Git, Ruby, Java, REST API, Gherkin","MongoDB, PostgreSQL, Kibana, Jira, Xray",17000,21000.0,"['Git', 'Ruby', 'Java', 'REST API', 'Gherkin']"
+262,Remote Solution Architect,Jit Team sp. z o.o.,senior,32000 36000,"Jira, Confluence, Java",SQL,32000,36000.0,"['Jira', 'Confluence', 'Java']"
+268,Software Engineer (SaaS Back-End AWS),Adtran,mid,12000 17000,Python,,12000,17000.0,['Python']
+272,Lead Automation Test Engineer (Python),J-LABS sp. z o.o.,manager,22400 25600,"Python, AWS, Selenium",,22400,25600.0,"['Python', 'AWS', 'Selenium']"
+274,Flutter Developer,ONWELO Sp. z o.o.,,8000 20160,,,8000,20160.0,[]
+275,Java Developer,ITFS sp. z o.o.,mid,16000 19200,"Java, Maven, Spring Boot, AWS",,16000,19200.0,"['Java', 'Maven', 'Spring Boot', 'AWS']"
+277,Systems Engineer/Linux,Lufthansa Systems,senior,10000 21000,"Debian, Red Hat",,10000,21000.0,"['Debian', 'Red Hat']"
+283,Frontend Web Game Developer,Optimo Development Sp. z o.o.,mid,15000 20000,"JavaScript, TypeScript, PIXI.JS","ActionScript, RobotlegsJS, Three.js, WebGL, webpack, Node.js, Adobe Animate, Spine",15000,20000.0,"['JavaScript', 'TypeScript', 'PIXI.JS']"
+286,Systems Engineer/DevOps,Lufthansa Systems,senior,10000 21000,"DevOps, Bash, Go, Ruby, Python, Docker, Kubernetes, Jenkins, Azure DevOps","Terraform, Ansible, Kafka, Elasticsearch, Puppet",10000,21000.0,"['DevOps', 'Bash', 'Go', 'Ruby', 'Python', 'Docker', 'Kubernetes', 'Jenkins', 'Azure DevOps']"
+293,IT Team Leader,Hart Sp. z o.o.,,18000 20000,,,18000,20000.0,[]
+306,Developer - Konfigurator Ferryt,7N Sp. z o.o.,mid,14280 16800,"FerrytFlow, UniFlow, BPMN, UML","SQL, T-SQL, HTML, CSS",14280,16800.0,"['FerrytFlow', 'UniFlow', 'BPMN', 'UML']"
+313,Software Engineer in Test,HAPPY TEAM,senior,18000 25000,"C#, Selenium, Appium, RestAPI, Microsoft Azure, Git, SQL","Specflow, Xunit, Nunit, Java",18000,25000.0,"['C#', 'Selenium', 'Appium', 'RestAPI', 'Microsoft Azure', 'Git', 'SQL']"
+320,Senior DevOps Engineer (AWS),7N Sp. z o.o.,senior,31920 36960,"Kubernetes, AWS, Terraform",,31920,36960.0,"['Kubernetes', 'AWS', 'Terraform']"
+322,Database Administrator,Product Madness,mid,12500 14000,"MySQL, PostgreSQL, MongoDB, Snowflake Data Cloud","Ansible, Terraform, Google Cloud Platform, AWS, Docker, Kubernetes",12500,14000.0,"['MySQL', 'PostgreSQL', 'MongoDB', 'Snowflake Data Cloud']"
+326,Identity Governance and Administration (IGA) Engineer,Kingit sp. z o.o.,mid,20000 26000,,,20000,26000.0,[]
+327,PHP Developer,Scalo Sp. z o.o.,mid,19200 24000,"PHP, MySQL","JavaScript, AWS",19200,24000.0,"['PHP', 'MySQL']"
+328,Senior Data Engineer (Azure DataBricks + SQL),Scalo Sp. z o.o.,senior,22400 27200,"Python, SQL, Scala",,22400,27200.0,"['Python', 'SQL', 'Scala']"
+330,PMO Specialist,ITFS sp. z o.o.,mid,9600 12000,"Jira, SharePoint",,9600,12000.0,"['Jira', 'SharePoint']"
+333,.NET Developer,Scalo Sp. z o.o.,mid,19200 22400,"SQL, .NET, C#",,19200,22400.0,"['SQL', '.NET', 'C#']"
+334,System Analyst,Scalo Sp. z o.o.,mid,20800 25600,,,20800,25600.0,[]
+337,Web Application Administrator,Raiffeisen Bank International AG (Spółka Akcyjna) Oddział w Polsce,mid,13000 15000,"SQL, Linux, Bash",,13000,15000.0,"['SQL', 'Linux', 'Bash']"
+342,QA Senior (Automated),Primotly,senior,17000 22000,Automated Testing,,17000,22000.0,['Automated Testing']
+343,Specjalista / Specjalistka ds. helpdesk,KAMSOFT PODLASIE sp. z o.o.,mid,4500 7400,Microsoft Excel,,4500,7400.0,['Microsoft Excel']
+350,Informatica Data Governance Developer,Scalo Sp. z o.o.,mid,20800 25600,Informatica (Data Governance/Data Quality),znajomość branży automotive,20800,25600.0,['Informatica (Data Governance/Data Quality)']
+351,Workstation Environment Specialist,B2B.NET S.A.,mid,8000 11200,"Microsoft Azure, MECM, Microsoft Intune, PowerShell",,8000,11200.0,"['Microsoft Azure', 'MECM', 'Microsoft Intune', 'PowerShell']"
+353,Business Analyst,YETIFORCE S.A.,mid,10000 14000,Jira,,10000,14000.0,['Jira']
+354,Inżynier elektronik (junior),Carl Zeiss IQS Software R&D Center Sp. z o.o.,junior,6000 9000,,"ARM Cortex M3/M7, SPICE, CAN, EtherCAT, SPI, FPGA",6000,9000.0,[]
+355,Inżynier elektronik (mid),Carl Zeiss IQS Software R&D Center Sp. z o.o.,mid,8000 12000,,"ARM Cortex M3/M7, SPICE, CAN, EtherCAT, SPI, FPGA",8000,12000.0,[]
+356,Inżynier elektronik (senior),Carl Zeiss IQS Software R&D Center Sp. z o.o.,senior,11000 15000,,"ARM Cortex M3/M7, SPICE, CAN, EtherCAT, SPI, FPGA",11000,15000.0,[]
+363,Presale Solution Architect,INFOGAIN TECHNOLOGIES SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,mid,24000 30000,"Microsoft Azure, AWS, Google Cloud Platform, Python",,24000,30000.0,"['Microsoft Azure', 'AWS', 'Google Cloud Platform', 'Python']"
+364,React Frontend,INFOGAIN TECHNOLOGIES SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,mid,21000 31000,JavaScript,,21000,31000.0,['JavaScript']
+367,Scrum Master (Salesforce Project Manager),INFOGAIN TECHNOLOGIES SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,mid,20800 25600,Salesforce,,20800,25600.0,['Salesforce']
+370,Senior Payments Software Developer,INFOGAIN TECHNOLOGIES SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,senior,22400 28800,"Java, Gradle, Maven, Spring Boot, RabbitMQ, Kafka, SQL",,22400,28800.0,"['Java', 'Gradle', 'Maven', 'Spring Boot', 'RabbitMQ', 'Kafka', 'SQL']"
+373,Elixir Developer,LLINFORMATICS,mid,14000 22000,"Elixir, AWS, Heroku, PostgreSQL",RabbitMQ,14000,22000.0,"['Elixir', 'AWS', 'Heroku', 'PostgreSQL']"
+376,Elixir Developer,LLINFORMATICS,mid,14000 22000,"Elixir, AWS, Heroku, PostgreSQL",RabbitMQ,14000,22000.0,"['Elixir', 'AWS', 'Heroku', 'PostgreSQL']"
+377,Java Developer,LLINFORMATICS,mid,17000 25000,"Java, Spring Boot, PostgreSQL, AWS",,17000,25000.0,"['Java', 'Spring Boot', 'PostgreSQL', 'AWS']"
+378,DevOps Engineer,LLINFORMATICS,mid,19000 25000,"AWS, Microsoft Azure, Terraform, Docker","Packer, Ansible, Chef, Java, Ruby, Elixir",19000,25000.0,"['AWS', 'Microsoft Azure', 'Terraform', 'Docker']"
+379,C++ Developer,ITFS sp. z o.o.,mid,16000 20800,C++,"Linux, Google Cloud Platform",16000,20800.0,['C++']
+382,Senior Java Developer,INFOGAIN TECHNOLOGIES SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,senior,21000 31000,Java,,21000,31000.0,['Java']
+383,Help Desk Specialist,ITHOUSE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,mid,10400 12800,"Zabbix, Cisco, SCCM, ECM, GLPI, Redmine",,10400,12800.0,"['Zabbix', 'Cisco', 'SCCM', 'ECM', 'GLPI', 'Redmine']"
+396,Magento Developer,Polcode Sp. z o.o.,,13000 21000,,,13000,21000.0,[]
+401,Support Engineer (with Java),SILENT EIGHT PTE. LTD.,mid,12000 19000,"Java, Linux, Jira, Java 11, Spring Boot, PostgreSQL, Docker",,12000,19000.0,"['Java', 'Linux', 'Jira', 'Java 11', 'Spring Boot', 'PostgreSQL', 'Docker']"
+409,Senior Konsultant SAP,Aequitas Polska Sp. z o.o.,senior,20000 28000,"SAP HANA, SAP",,20000,28000.0,"['SAP HANA', 'SAP']"
+417,Standard Angular Developer (DH),Lufthansa Systems,mid,8000 16000,"Angular, HTTP, HTML5, CSS3, RestAPI, NgRx, JavaScript, UX/UI","React.js, Vue.js, Java SE, Jira, CI/CD",8000,16000.0,"['Angular', 'HTTP', 'HTML5', 'CSS3', 'RestAPI', 'NgRx', 'JavaScript', 'UX/UI']"
+418,DevOps Engineer (DH),Lufthansa Systems,senior,10000 29400,"Jenkins, Docker, Kubernetes, Kibana, Prometheus, Grafana",Azure DevOps,10000,29400.0,"['Jenkins', 'Docker', 'Kubernetes', 'Kibana', 'Prometheus', 'Grafana']"
+424,Salesforce Developer,Volvo Digital & IT,mid,12000 22000,"Salesforce, Sales Cloud, Experience Cloud, Commerce Cloud","MuleSoft, Copado, JavaScript",12000,22000.0,"['Salesforce', 'Sales Cloud', 'Experience Cloud', 'Commerce Cloud']"
+426,Salesforce Developer,ITFS sp. z o.o.,mid,19200 24000,"Salesforce, SQL",,19200,24000.0,"['Salesforce', 'SQL']"
+428,Java Developer,IT CONNECT Sp. z o.o. Sp.k.,mid,20000 23000,"Java, Microsoft Azure, GraphQL, Angular",,20000,23000.0,"['Java', 'Microsoft Azure', 'GraphQL', 'Angular']"
+438,Lead Software Engineer,CO3 sp. z o.o.,manager,19000 28000,"Java, Spring Framework, SQL, NoSQL, AWS","Postman, React, OAuth 2.0, Kafka, Grafana",19000,28000.0,"['Java', 'Spring Framework', 'SQL', 'NoSQL', 'AWS']"
+439,Senior Back-end Developer (.NET),Shiji Poland,senior,21000 25200,"C# 11, .NET 7, Web API (REST), NHibernate, PostgreSQL, Elasticsearch","SoapUI, Linux, Docker",21000,25200.0,"['C# 11', '.NET 7', 'Web API (REST)', 'NHibernate', 'PostgreSQL', 'Elasticsearch']"
+442,Back-end .NET Developer,Shiji Poland,mid,18000 21840,"C# 11, .NET 7, PostgreSQL, Redis, Kafka, Elasticsearch, Visual Studio, Microservices, Swagger, Resharper, Rider","Linux, Docker",18000,21840.0,"['C# 11', '.NET 7', 'PostgreSQL', 'Redis', 'Kafka', 'Elasticsearch', 'Visual Studio', 'Microservices', 'Swagger', 'Resharper', 'Rider']"
+443,Senior Business / System Analyst,QODECA sp. z o.o.,senior,18000 24000,"UML, SQL",Azure DevOps,18000,24000.0,"['UML', 'SQL']"
+444,Senior DevOps (AWS + Kubernetes),NTIATIVE sp. z o.o.,senior,27000 32000,"AWS, Kubernetes, Python",,27000,32000.0,"['AWS', 'Kubernetes', 'Python']"
+448,Programista Systemów ERP,Asco,mid,10000 15000,"Harbour, Clipper, FoxPro, Visual Basic",,10000,15000.0,"['Harbour', 'Clipper', 'FoxPro', 'Visual Basic']"
+450,Specjalista / Specjalistka ds. helpdesk,KAMSOFT PODLASIE sp. z o.o.,mid,4500 7400,,"SQL, Zabbix",4500,7400.0,[]
+451,Senior DevOps Engineer,Boldare,mid,13400 27000,"AWS, Google Cloud Platform, Azure, Python, Bash, Terraform, Ansible, GitHub, GitLab",,13400,27000.0,"['AWS', 'Google Cloud Platform', 'Azure', 'Python', 'Bash', 'Terraform', 'Ansible', 'GitHub', 'GitLab']"
+454,"Software Engineer (C++, QNX)",JellyTech,senior,24000 30200,"C++, QNX, SoC",,24000,30200.0,"['C++', 'QNX', 'SoC']"
+460,Area Product Owner,E NET PRODUCTION,,9000 14500,,,9000,14500.0,[]
+461,Senior Java Developer,ITFS sp. z o.o.,mid,32000 34400,"Java, Hibernate, SQL, Maven, Spring Boot",,32000,34400.0,"['Java', 'Hibernate', 'SQL', 'Maven', 'Spring Boot']"
+471,Programista Backend Laravel,PAIDWORK SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,mid,5500 8000,"Laravel, SQL",,5500,8000.0,"['Laravel', 'SQL']"
+472,Full Stack PHP Developer,etumi.pl,mid,7000 10000,"PHP, Laravel, MySQL","Vue.js, Elasticsearch, Docker",7000,10000.0,"['PHP', 'Laravel', 'MySQL']"
+475,Senior Java Developer # Azure,CPL Jobs .,senior,21000 24000,"Java, Azure SQL, Linux, Git",,21000,24000.0,"['Java', 'Azure SQL', 'Linux', 'Git']"
+476,PMO Project Management Officer,DCG,mid,10000 15120,,,10000,15120.0,[]
+478,Senior Python Developer,Polcode Sp. z o.o.,,13500 21000,,,13500,21000.0,[]
+481,Test Manager,ONWELO Sp. z o.o.,,16000 17920,,,16000,17920.0,[]
+484,Java Engineer – IoT Platform,VAILLANT GROUP BUSINESS SERVICES POLAND Sp. z o.o.,mid,16000 18000,"Java, Microservices, Azure, Kubernetes, Spring Boot",Kafka,16000,18000.0,"['Java', 'Microservices', 'Azure', 'Kubernetes', 'Spring Boot']"
+487,DevOps Engineer,InfoTiles AS,mid,16000 23000,"Kubernetes, Microsoft Azure, Elasticsearch, Linux","PostgreSQL, .NET, Ubuntu, C#, Azure DevOps",16000,23000.0,"['Kubernetes', 'Microsoft Azure', 'Elasticsearch', 'Linux']"
+489,"Storage, Backup, Virtualization Engineer",NASK,mid,9000 11000,,,9000,11000.0,[]
+491,Guidewire Integration Developer,EXPINIT & KAMELAK SPÓŁKA JAWNA,mid,14400 20000,"Guidewire, Gosu, PolicyCenter",,14400,20000.0,"['Guidewire', 'Gosu', 'PolicyCenter']"
+498,Big Data Engineer,KITRUM,,17000 20000,,,17000,20000.0,[]
+499,Test automation Engineer with Python,ENGENIOUS,mid,22400 28800,"Python, C++, pytest, Bash",,22400,28800.0,"['Python', 'C++', 'pytest', 'Bash']"
+501,Asset Manager,ESTARTA POLAND SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,mid,8000 10000,,,8000,10000.0,[]
+507,Data Reporting Senior Developer,ITDS Polska Sp. z o.o.,senior,14700 21840,"SQL, Jira, Confluence",Python,14700,21840.0,"['SQL', 'Jira', 'Confluence']"
+511,Konsultant ERP enova365,UNIBOX IT sp. z o.o.,mid,7000 9000,,C#,7000,9000.0,[]
+516,Java Team Lead,ITDS Polska Sp. z o.o.,team manager,21000 27720,"Java, Spring Framework, AWS, Google Cloud Platform, Microsoft Azure",,21000,27720.0,"['Java', 'Spring Framework', 'AWS', 'Google Cloud Platform', 'Microsoft Azure']"
+521,Java Engineer,ITDS Polska Sp. z o.o.,senior,21000 27720,"SQL, Spring Framework, PostgreSQL, MSSQL, HTML, CSS, JavaScript, SoapUI, Git, Jira, Maven, Jenkins, AWS, Google Cloud Platform, Microsoft Azure, Postman",,21000,27720.0,"['SQL', 'Spring Framework', 'PostgreSQL', 'MSSQL', 'HTML', 'CSS', 'JavaScript', 'SoapUI', 'Git', 'Jira', 'Maven', 'Jenkins', 'AWS', 'Google Cloud Platform', 'Microsoft Azure', 'Postman']"
+522,Fullstack Developer (.NET + Angular),JellyTech,mid,18000 23000,".NET Core, .NET, Angular, SQL, Docker, PowerShell, Bash, Git","Jenkins, SQLite, Jira",18000,23000.0,"['.NET Core', '.NET', 'Angular', 'SQL', 'Docker', 'PowerShell', 'Bash', 'Git']"
+523,Regular Ruby On Rails Developer,Siepomaga.pl,,13000 19000,,,13000,19000.0,[]
+524,Offer Specialist with German or Spanish,PACKHELP SPÓŁKA AKCYJNA,junior,6500 8000,,,6500,8000.0,[]
+525,Tester Oprogramowania,Siepomaga.pl,mid,9500 15000,"Postman, SQL, MySQL, PostgreSQL",,9500,15000.0,"['Postman', 'SQL', 'MySQL', 'PostgreSQL']"
+526,Senior DevOps Engineer # AWS,CPL Jobs .,senior,21000 24000,"Linux, Python, Docker, AWS","Bash, Git",21000,24000.0,"['Linux', 'Python', 'Docker', 'AWS']"
+533,Symfony Developer z Oro Commerce,Creativestyle Polska Sp. z o.o.,,11000 20000,,,11000,20000.0,[]
+535,Symfony Developer z Shopware,Creativestyle Polska Sp. z o.o.,,11000 20000,,,11000,20000.0,[]
+536,.NET Developer – BaaS Engineer,ITDS Polska Sp. z o.o.,senior,21000 29402,".NET, .NET Core, ASP.NET MVC, C#, Docker, Kubernetes, SQL, Git, Microsoft Azure",,21000,29402.0,"['.NET', '.NET Core', 'ASP.NET MVC', 'C#', 'Docker', 'Kubernetes', 'SQL', 'Git', 'Microsoft Azure']"
+537,Senior PHP Developer,MULTIPLAY sp. z o.o. SPÓŁKA KOMANDYTOWA,senior,10000 19000,"PHP, Laravel, Symfony, Docker, Git","JavaScript, Vue.js, Linux",10000,19000.0,"['PHP', 'Laravel', 'Symfony', 'Docker', 'Git']"
+538,IT Support,CRAON.PL sp. z o.o.,mid,15800 16200,"Active Directory, Windows Server",,15800,16200.0,"['Active Directory', 'Windows Server']"
+543,Angular Developer,G-Group.dev,mid,12000 17000,"Angular, JavaScript, TypeScript, HTML, CSS, SASS, RXJS",,12000,17000.0,"['Angular', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'SASS', 'RXJS']"
+545,JavaScript Developer – Digital Media Engineer,ITDS Polska Sp. z o.o.,mid,16800 25200,"JavaScript, HTML, Git, Babel, webpack","React.js, Node.js, Express, Nest.js, TypeScript, NoSQL, Jasmine, Karma, Cypress, Protractor",16800,25200.0,"['JavaScript', 'HTML', 'Git', 'Babel', 'webpack']"
+546,PHP Developer,G-Group.dev,mid,12000 17000,"PHP, Symfony, MySQL",,12000,17000.0,"['PHP', 'Symfony', 'MySQL']"
+547,React Developer,G-Group.dev,mid,12000 17000,"React.js, JavaScript, CSS, SCSS, LESS, Redux, React Context, MobX",,12000,17000.0,"['React.js', 'JavaScript', 'CSS', 'SCSS', 'LESS', 'Redux', 'React Context', 'MobX']"
+548,Inżynier sieciowy,LOOPUS sp. z o.o.,mid,8000 12000,,,8000,12000.0,[]
+549,SCADA Inżynier,Novaris Sp. z o.o.,mid,18000 25000,SQL,,18000,25000.0,['SQL']
+550,Data Engineer (GCP),ONWELO Sp. z o.o.,,14000 21000,,,14000,21000.0,[]
+551,Senior Big Data Engineer,ONWELO Sp. z o.o.,,14000 27216,,,14000,27216.0,[]
+552,Data Engineer (Microsoft),ONWELO Sp. z o.o.,,9500 21000,,,9500,21000.0,[]
+553,Lead Business / System Analyst,QODECA sp. z o.o.,manager,23000 27000,"UML, SQL",Azure DevOps,23000,27000.0,"['UML', 'SQL']"
+554,Senior .Net Developer with Python,ONWELO Sp. z o.o.,,20000 24000,,,20000,24000.0,[]
+557,IT Service Desk Consultant,CONCRET Daniel Rzepliński,mid,6000 9000,,,6000,9000.0,[]
+559,Software (PHP) Development Services,Pearson Central Europe Sp. z o.o.,mid,16000 30400,"PHP 8, Symfony 5, oauth, REST, MySQL, Git, Docker, ATLAS, Jenkins","Java, Spring Boot, JavaScript, Angular, CanJS, React.js, Python, Behat",16000,30400.0,"['PHP 8', 'Symfony 5', 'oauth', 'REST', 'MySQL', 'Git', 'Docker', 'ATLAS', 'Jenkins']"
+560,Frontend Development Engineering Services,Pearson Central Europe Sp. z o.o.,mid,16000 30400,"jQuery, CSS, HTML, SASS, Less, OOJS, Google Analytics, Angular","CSS3, CSS",16000,30400.0,"['jQuery', 'CSS', 'HTML', 'SASS', 'Less', 'OOJS', 'Google Analytics', 'Angular']"
+563,Architekt DevOps,Totaldevs sp. z o.o.,mid,21000 33000,"Bitbucket, Bamboo, Artifactory/Nexus, SonarCube, Maven, Git",,21000,33000.0,"['Bitbucket', 'Bamboo', 'Artifactory/Nexus', 'SonarCube', 'Maven', 'Git']"
+564,Architekt rozwiązań IT,Nexio Management Sp. z o.o.,mid,21000 30000,"UML, Enterprise Architect, Jira","Tibco, Salesforce, Java",21000,30000.0,"['UML', 'Enterprise Architect', 'Jira']"
+568,UX/UI Designer (Mid/ Senior),Creativestyle Polska Sp. z o.o.,,8000 15600,,,8000,15600.0,[]
+570,Analityk Systemowy,ITFS sp. z o.o.,mid,16000 19200,"REST API, SoapUI",,16000,19200.0,"['REST API', 'SoapUI']"
+571,Specjalista / Specjalistka ds. wsparcia IT,AFNET Sp. z o.o.,mid,7000 10000,,,7000,10000.0,[]
+574,PL/SQL Developer,4IT Solutions,senior,16800 21840,"{'PL/SQL': 'master', 'Oracle DB': 'advanced'}",-,16800,21840.0,"['PL/SQL', 'Oracle DB']"
+576,DevOps Engineer,Kongsberg Maritime Poland,mid,9000 17000,"{'Azure DevOps': 'regular', 'API': 'regular', 'CI/CD': 'regular', 'Docker': 'regular', 'Git': 'regular', 'Python': 'regular', 'Linux': 'regular', 'Security': 'junior', 'Azure': 'junior', 'Kubernetes': 'nice to have'}",-,9000,17000.0,"['Azure DevOps', 'API', 'CI/CD', 'Docker', 'Git', 'Python', 'Linux', 'Security', 'Azure', 'Kubernetes']"
+578,Power BI and Tabular Model Developer,Sigma IT Poland,mid,19000 22000,"{'DAX': 'advanced', 'Power BI': 'advanced', 'Data Engineering': 'regular', 'Git': 'regular', 'SQL': 'regular', 'AWS': 'junior', 'Snowflake': 'junior'}",-,19000,22000.0,"['DAX', 'Power BI', 'Data Engineering', 'Git', 'SQL', 'AWS', 'Snowflake']"
+579,Python Developer,Cledar,mid,20800 25000,"{'Python': 'advanced', 'PySpark': 'advanced', 'NumPy': 'regular', 'Pandas': 'regular'}",-,20800,25000.0,"['Python', 'PySpark', 'NumPy', 'Pandas']"
+580,DevOps AWS Engineer,Reply Polska Sp. z o. o.,senior,18000 35000,"{'AWS': 'advanced', 'Linux': 'regular', 'Windows': 'regular', 'Infrastructure as a code': 'regular'}",-,18000,35000.0,"['AWS', 'Linux', 'Windows', 'Infrastructure as a code']"
+581,Testing Engineer,Reply Polska Sp. z o. o.,mid,12000 22000,"{'Postman': 'regular', 'WebService': 'regular', 'Testing': 'regular'}",-,12000,22000.0,"['Postman', 'WebService', 'Testing']"
+582,Senior Java Developer Cloud Native Stack,Reply Polska Sp. z o. o.,senior,22000 35000,"{'Java 17+': 'advanced', 'Spring Boot': 'advanced', 'Docker': 'advanced', 'Kubernetes': 'advanced', 'Kotlin': 'regular'}",-,22000,35000.0,"['Java 17+', 'Spring Boot', 'Docker', 'Kubernetes', 'Kotlin']"
+589,Network Engineer,Optiveum,senior,20000 25000,"{'Cisco IOS': 'advanced', 'ASA': 'advanced', 'English': 'advanced', 'FortiGate': 'regular', 'Meraki': 'regular', 'German': 'nice to have'}",-,20000,25000.0,"['Cisco IOS', 'ASA', 'English', 'FortiGate', 'Meraki', 'German']"
+590,Junior PHP / Laravel Developer,ConnectTo,junior,4000 8000,"{'PHP 7.x': 'junior', 'HTML': 'junior', 'Laravel': 'nice to have', 'MySQL': 'nice to have', 'Bootstrap': 'nice to have', 'Git': 'nice to have'}",-,4000,8000.0,"['PHP 7.x', 'HTML', 'Laravel', 'MySQL', 'Bootstrap', 'Git']"
+594,Senior/Mid UI/UX Designer,Sofomo,senior,15000 22000,"{'UI': 'advanced', 'UX': 'advanced', 'Figma': 'advanced', 'Prototyping': 'advanced', 'Product design': 'advanced', 'wireframing': 'advanced', 'User Flows': 'advanced', 'English': 'advanced'}",-,15000,22000.0,"['UI', 'UX', 'Figma', 'Prototyping', 'Product design', 'wireframing', 'User Flows', 'English']"
+596,QA Automation Engineer with Dynamics 365,Ultrico,mid,21000 26200,"{'Selenium': 'regular', '.NET C#': 'regular', 'TypeScript': 'regular', 'Dynamics 365': 'regular', 'Playwright': 'junior'}",-,21000,26200.0,"['Selenium', '.NET C#', 'TypeScript', 'Dynamics 365', 'Playwright']"
+597,FRONTEND Developer,Drinks2Cash,mid,11000 16000,"{'JavaScript': 'advanced', 'jQuery': 'advanced', 'HTML5 / CSS3': 'advanced', 'TypeScript': 'regular', 'Angular': 'regular'}",-,11000,16000.0,"['JavaScript', 'jQuery', 'HTML5 / CSS3', 'TypeScript', 'Angular']"
+598,DevOps Engineer,Playbook Engineering,mid,12000 18000,"{'Linux': 'advanced', 'Google Cloud Platform': 'regular', 'Kubernetes': 'regular', 'GitLab': 'regular', 'Terraform/Ansible': 'regular', 'Python/Go/Rush/Bash': 'regular'}",-,12000,18000.0,"['Linux', 'Google Cloud Platform', 'Kubernetes', 'GitLab', 'Terraform/Ansible', 'Python/Go/Rush/Bash']"
+600,Senior .NET Developer,CPL Jobs .,senior,20000 23000,"C#, SQL, ETL, DBA",,20000,23000.0,"['C#', 'SQL', 'ETL', 'DBA']"
+602,Front-end Developer,LINK POINT sp. z o.o.,mid,6000 12000,"JavaScript, React.js, HTML, Git, CSS","PHP, PHPStorm, Laravel, MySQL, Microsoft SQL Server",6000,12000.0,"['JavaScript', 'React.js', 'HTML', 'Git', 'CSS']"
+604,Ekspert ds. Zgodności w IT,PROVIDENT Polska,,13500 18500,,,13500,18500.0,[]
+613,SAP Basis Engineer for System Integration,CSHARK sp. z o.o.,,24000 33500,,,24000,33500.0,[]
+617,Junior PHP Developer,Epicode Sp. z o.o.,junior,4500 10000,"MySQL, Symfony, JavaScript, CSS, PHP",React.js,4500,10000.0,"['MySQL', 'Symfony', 'JavaScript', 'CSS', 'PHP']"
+618,PHP Developer,Epicode Sp. z o.o.,mid,10000 16000,"PHP, JavaScript, MySQL, Symfony, SQL",,10000,16000.0,"['PHP', 'JavaScript', 'MySQL', 'Symfony', 'SQL']"
+619,Mobile Developer,EMPLO sp. z o.o.,mid,10000 20000,"React Native, TypeScript, JavaScript, Git, Android, iOS, Android Studio, Xcode",,10000,20000.0,"['React Native', 'TypeScript', 'JavaScript', 'Git', 'Android', 'iOS', 'Android Studio', 'Xcode']"
+623,Technical Support Specialist I with French/Spanish (2nd line),JAMF,,8750 11000,,,8750,11000.0,[]
+627,Developer PL/SQL z niemieckim,KZ INSPIRE,mid,14400 33600,"PL/SQL, Oracle",Oracle APEX,14400,33600.0,"['PL/SQL', 'Oracle']"
+628,Programista C++ (Embedded / Industrial),JellyTech,,14500 17800,,,14500,17800.0,[]
+629,Senior MS Power BI Developer,JellyTech,,16000 27000,,,16000,27000.0,[]
+630,IT Production Engineer,JellyTech,mid,6000 9000,"Microsoft Power BI, Oracle, Microsoft SQL Server, Apache Tomcat","PowerShell, Bitbucket, Jenkins, Artifactory, Ansible",6000,9000.0,"['Microsoft Power BI', 'Oracle', 'Microsoft SQL Server', 'Apache Tomcat']"
+631,Onsite Support Engineer (z językiem angielskim),JellyTech,mid,9000 11800,Microsoft Excel,,9000,11800.0,['Microsoft Excel']
+632,Senior Sharepoint Developer,JellyTech,senior,18000 24000,"SharePoint, Microsoft Azure, React.js, .NET",,18000,24000.0,"['SharePoint', 'Microsoft Azure', 'React.js', '.NET']"
+636,Digital Hangar Team Leader,Lufthansa Systems,manager,15000 25000,,,15000,25000.0,[]
+637,Fullstack Developer (Java + Angular),Prime Engineering Poland,mid,22000 28000,"Java, CoreJava, JDBC, Spring Framework, Maven, JavaScript, TypeScript, HTML, CSS, Angular, XML, JSON, REST, OpenAPI, Swagger","RedUX, Jenkins, Sonar",22000,28000.0,"['Java', 'CoreJava', 'JDBC', 'Spring Framework', 'Maven', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'Angular', 'XML', 'JSON', 'REST', 'OpenAPI', 'Swagger']"
+641,Konsultant wdrożeniowy ERP systemu Comarch ERP XL/Optima - Enova365 - Softlab,PracBaza sp. z o.o.,,6900 12700,,,6900,12700.0,[]
+652,Product Owner / System Analyst,Consdata S.A.,mid,10500 19000,BPMN,,10500,19000.0,['BPMN']
+653,Regular Fullstack Developer (Java+Angular),Consdata S.A.,mid,11300 21000,"Java, Spring Framework, Angular, PostgreSQL, MongoDB, Docker","Kafka, OpenShift",11300,21000.0,"['Java', 'Spring Framework', 'Angular', 'PostgreSQL', 'MongoDB', 'Docker']"
+654,Regular Java Developer,Consdata S.A.,mid,11300 21000,"Java, Spring Framework, PostgreSQL, MongoDB, Docker","Kafka, OpenShift",11300,21000.0,"['Java', 'Spring Framework', 'PostgreSQL', 'MongoDB', 'Docker']"
+655,Senior Frontend / Fullstack Developer,Consdata S.A.,senior,14900 27220,"Angular, TypeScript, Java, Spring Framework, IntelliJ, Git, Docker, OpenShift",,14900,27220.0,"['Angular', 'TypeScript', 'Java', 'Spring Framework', 'IntelliJ', 'Git', 'Docker', 'OpenShift']"
+656,Senior Fullstack Developer (Java+Angular),Consdata S.A.,senior,14900 27220,"Java, Spring Framework, Angular, PostgreSQL, MongoDB, Docker","Kafka, OpenShift",14900,27220.0,"['Java', 'Spring Framework', 'Angular', 'PostgreSQL', 'MongoDB', 'Docker']"
+657,Senior Java Developer,Consdata S.A.,senior,14900 27220,"Java, Spring Framework, Docker, Git, TypeScript, MongoDB","Kafka, OpenShift",14900,27220.0,"['Java', 'Spring Framework', 'Docker', 'Git', 'TypeScript', 'MongoDB']"
+666,Senior Software Engineer - Adobe Experience Manager (AEM),Lufthansa Systems,senior,10000 29400,"Java, Adobe, Microservices, RESTful services, DevOps tools, SQL, NoSql, Azure DevOps",,10000,29400.0,"['Java', 'Adobe', 'Microservices', 'RESTful services', 'DevOps tools', 'SQL', 'NoSql', 'Azure DevOps']"
+667,Business Analyst,STS S.A.,mid,8000 12000,"Jira, Confluence, Miro",,8000,12000.0,"['Jira', 'Confluence', 'Miro']"
+678,PL/SQL Developer,JellyTech,mid,16000 20100,"PL/SQL, Oracle","Oracle Apex, JSON, REST API",16000,20100.0,"['PL/SQL', 'Oracle']"
+679,Senior Frontend Developer (Angular),JellyTech,mid,21000 26000,"Angular, Jenkins, GitLab, Github, Bitbucket, Jira, Confluence",,21000,26000.0,"['Angular', 'Jenkins', 'GitLab', 'Github', 'Bitbucket', 'Jira', 'Confluence']"
+680,Senior Python Developer,JellyTech,senior,20000 23500,"Python, FastAPI, Celery, pytest, SQL Alchemy, Boto3, Keycloak, AWS, Docker, Kubernetes, Helm",,20000,23500.0,"['Python', 'FastAPI', 'Celery', 'pytest', 'SQL Alchemy', 'Boto3', 'Keycloak', 'AWS', 'Docker', 'Kubernetes', 'Helm']"
+681,Senior DevOps Engineer,TKH Technology Poland Sp. z o.o.,,20000 25000,,,20000,25000.0,[]
+683,Fullstack Java Developer,Novaris Sp. z o.o.,mid,22000 26000,"Java, Spring Boot, Spring Framework, Oracle",,22000,26000.0,"['Java', 'Spring Boot', 'Spring Framework', 'Oracle']"
+687,"Linux Engineer (Veritas Cluster, Ansible)",JellyTech,,16000 20000,,,16000,20000.0,[]
+688,MQ Administrator,JellyTech,mid,21000 25200,,,21000,25200.0,[]
+689,Senior AWS Python Developer,ITDS Polska Sp. z o.o.,senior,21000 25200,"AWS, Python, Linux, Jenkins, Git, Ansible",Terraform,21000,25200.0,"['AWS', 'Python', 'Linux', 'Jenkins', 'Git', 'Ansible']"
+690,Testing and Senior QA Specialist,ITDS Polska Sp. z o.o.,senior,18900 24150,,,18900,24150.0,[]
+691,Machine Learning,ITDS Polska Sp. z o.o.,mid,18900 23100,"Java, Python, Jenkins, Ansible, Git",,18900,23100.0,"['Java', 'Python', 'Jenkins', 'Ansible', 'Git']"
+692,Lead Cloud Security Engineer,ITDS Polska Sp. z o.o.,senior,21000 25200,"Microsoft Azure, Amazon Web Services, Google Cloud Platform, Alibaba Cloud, Python, Bash, PowerShell","Jenkins, Terraform, Ansible, GitHub, Nexus",21000,25200.0,"['Microsoft Azure', 'Amazon Web Services', 'Google Cloud Platform', 'Alibaba Cloud', 'Python', 'Bash', 'PowerShell']"
+695,Data Engineer,ITDS Polska Sp. z o.o.,,18900 24150,,,18900,24150.0,[]
+700,Sharepoint Developer,ITDS Polska Sp. z o.o.,senior,26250 27300,".NET, C#, React.js, SharePoint, TypeScript, SQL, NoSQL, Git, Microsoft Office 365, GitHub, CSS, Azure DevOps",,26250,27300.0,"['.NET', 'C#', 'React.js', 'SharePoint', 'TypeScript', 'SQL', 'NoSQL', 'Git', 'Microsoft Office 365', 'GitHub', 'CSS', 'Azure DevOps']"
+702,Data Analyst/Data Engineering Team Lead,DataFeedWatch by Cart.,manager,12000 19000,"Python, SQL",,12000,19000.0,"['Python', 'SQL']"
+714,Informatyk,Mazur i Wspólnicy Kancelaria Adwokatów i Radców Prawnych S.K.A.,mid,8000 9000,SharePoint,"Microsoft Dynamics, Active Directory, Microsoft Access",8000,9000.0,['SharePoint']
+715,Senior SAP CRM Developer,7N Sp. z o.o.,senior,26880 33600,"SAP, SAP ABAP, SAP HANA",,26880,33600.0,"['SAP', 'SAP ABAP', 'SAP HANA']"
+723,Xamarin Developer,ITFS sp. z o.o.,mid,22400 27200,"Xamarin, C#, .NET, Git",,22400,27200.0,"['Xamarin', 'C#', '.NET', 'Git']"
+727,Software Engineer (Python Back-end),Adtran,mid,12000 17000,Python,,12000,17000.0,['Python']
+732,Starszy programista / programistka gier,IMAGE POWER S.A.,senior,10000 20000,"Unreal Engine, C++","SVN, C#, Unity 3D",10000,20000.0,"['Unreal Engine', 'C++']"
+733,Software Engineering Team Lead,VAILLANT GROUP BUSINESS SERVICES POLAND Sp. z o.o.,manager,24000 26000,,,24000,26000.0,[]
+739,Lead Embedded Automotive Software Engineer,Grape Up Sp. z o.o.,,19800 37800,,,19800,37800.0,[]
+744,Business Solutions Senior Data Engineer,CLOUDFIDE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ,senior,26000 42000,"SQL, Microsoft SQL Server, PostgreSQL, Python, Microsoft Azure, CI/CD, Data Lake, DWH, ETL/ELT","Azure DevOps, Apache Spark, Databricks, Apache Airflow",26000,42000.0,"['SQL', 'Microsoft SQL Server', 'PostgreSQL', 'Python', 'Microsoft Azure', 'CI/CD', 'Data Lake', 'DWH', 'ETL/ELT']"
+754,Software Engineer (SaaS Back-End AWS),Adtran,mid,12000 17000,Python,,12000,17000.0,['Python']
+760,Cloud DevOps Engineer,SIMPLELOGIC sp. z o.o.,mid,22400 28800,"Python, Linux, Microsoft Azure, AWS, Docker, Git, Terraform, Prometheus, Grafana, Zabbix, Nagios","PowerShell, Java, Jenkins, Kubernetes, Ansible",22400,28800.0,"['Python', 'Linux', 'Microsoft Azure', 'AWS', 'Docker', 'Git', 'Terraform', 'Prometheus', 'Grafana', 'Zabbix', 'Nagios']"
+763,Architekt Systemowy DevOps,SIMPLELOGIC sp. z o.o.,senior,32000 38400,"Bitbucket, Bamboo, Artifactory, Nexus, SonarCube, Maven, Git","PowerShell, Java, Jenkins, Kubernetes, Ansible",32000,38400.0,"['Bitbucket', 'Bamboo', 'Artifactory', 'Nexus', 'SonarCube', 'Maven', 'Git']"
+764,Analityk Systemowy - AML,SIMPLELOGIC sp. z o.o.,mid,22400 25600,"Bitbucket, Bamboo, Artifactory, Nexus, SonarCube, Maven, Git, AML","PowerShell, Java, Jenkins, Kubernetes, Ansible",22400,25600.0,"['Bitbucket', 'Bamboo', 'Artifactory', 'Nexus', 'SonarCube', 'Maven', 'Git', 'AML']"
+767,Full Stack Java Developer,SIMPLELOGIC sp. z o.o.,mid,22400 25600,"Java, Spring Boot, Spring Framework, Hibernate, PostgreSQL, Kafka, AVRO, Angular, HTML, CSS","Struts, EJB, JSP, Kubernetes, Docker",22400,25600.0,"['Java', 'Spring Boot', 'Spring Framework', 'Hibernate', 'PostgreSQL', 'Kafka', 'AVRO', 'Angular', 'HTML', 'CSS']"
+768,E-commerce IT Business Analyst,Voucherify,mid,16000 22000,,,16000,22000.0,[]
+769,Senior Data Scientist,ITFS sp. z o.o.,mid,25600 30400,"SQL, Python",,25600,30400.0,"['SQL', 'Python']"
+770,WordPress Developer,Brantt,mid,10000 16000,"WordPress, WooCommerce, React.js, JavaScript, PHP, HTML, CSS, Git",,10000,16000.0,"['WordPress', 'WooCommerce', 'React.js', 'JavaScript', 'PHP', 'HTML', 'CSS', 'Git']"
+771,Java Developer,ITFS sp. z o.o.,mid,16000 19200,"Java, Maven, Spring Boot, AWS",,16000,19200.0,"['Java', 'Maven', 'Spring Boot', 'AWS']"
+773,Senior SAP SD Consultant,7N Sp. z o.o.,senior,28560 33600,"SAP SD, EDI","SAP ABAP, SAP HANA, SAP S, SolMan",28560,33600.0,"['SAP SD', 'EDI']"
+776,Senior Frontend Developer (React),Consileon Sp. z o. o.,senior,18000 24000,"React.js, JavaScript, TypeScript",,18000,24000.0,"['React.js', 'JavaScript', 'TypeScript']"
+779,Senior - Lead React Developer,Sopra Steria Polska Sp. z o.o.,senior,15000 32000,"JavaScript, TypeScript, Jira",,15000,32000.0,"['JavaScript', 'TypeScript', 'Jira']"
+785,IT Team Leader,Hart Sp. z o.o.,,18000 20000,,,18000,20000.0,[]
+790,Java Developer,PEOPLE TRUST SP. Z O.O.,mid,22200 25600,"Java, Spring Boot","Kubernetes, Ansible, MongoDB",22200,25600.0,"['Java', 'Spring Boot']"
+792,Senior UI/UX Designer,CRESTT sp. z o.o.,senior,18000 20000,"Figma, Jira, Asana, Confluence, Sketch, Abstract, ZeroHeight",,18000,20000.0,"['Figma', 'Jira', 'Asana', 'Confluence', 'Sketch', 'Abstract', 'ZeroHeight']"
+793,Business Analyst,CRESTT sp. z o.o.,mid,10000 23200,"UML, BPMN, SQL",,10000,23200.0,"['UML', 'BPMN', 'SQL']"
+804,PMO Specialist,B2B.NET S.A.,mid,8000 13600,"SharePoint, Confluence",,8000,13600.0,"['SharePoint', 'Confluence']"
+805,Backend .NET Developer,IT-SOLVE,mid,12800 19200,".NET, Microsoft SQL Server, Microsoft Azure, AWS, Git, RESTApi, ASP.NET Core","JavaScript, HTML, CSS, MongoDB, NoSQL",12800,19200.0,"['.NET', 'Microsoft SQL Server', 'Microsoft Azure', 'AWS', 'Git', 'RESTApi', 'ASP.NET Core']"
+810,Senior Java Engineer,Emerge Soft Sp. z o.o.,mid,18000 26000,"Java, Spring Boot, MySQL","Kotlin, akka, Hazelcast, Elasticsearch, Kafka, RabbitMQ, Consul, Google Cloud Platform, BigQuery",18000,26000.0,"['Java', 'Spring Boot', 'MySQL']"
+815,Database Administrator,Product Madness,mid,12500 14000,"MySQL, PostgreSQL, MongoDB, Snowflake Data Cloud","Ansible, Terraform, Google Cloud Platform, AWS, Docker, Kubernetes",12500,14000.0,"['MySQL', 'PostgreSQL', 'MongoDB', 'Snowflake Data Cloud']"
+818,Data Integration & Processing Specialist,CRESTT sp. z o.o.,mid,12000 15000,"SQL, T-SQL, JavaScript","Hadoop, UML, BPMN",12000,15000.0,"['SQL', 'T-SQL', 'JavaScript']"
+822,Programista PHP,3e Software House,mid,8000 14000,,,8000,14000.0,[]
+828,Analityk Systemowy,ITFS sp. z o.o.,mid,17600 20800,"Jira, Confluence, Enterprise Architect",,17600,20800.0,"['Jira', 'Confluence', 'Enterprise Architect']"
+839,Specjalista ds. wsparcia technicznego,Giganci Programowania sp. z o.o.,,4000 4800,,,4000,4800.0,[]
+841,Front-end (VUE) Developer,IT-SOLVE,mid,12800 17120,"Vue.js, JavaScript, HTML, CSS, Git, RESTApi, Angielski B2","TypeScript, .NET, Microsoft SQL Server",12800,17120.0,"['Vue.js', 'JavaScript', 'HTML', 'CSS', 'Git', 'RESTApi', 'Angielski B2']"
+845,Senior PHP (Symfony) Developer,BITBAG sp. z o.o.,senior,15000 20000,"PHP, Symfony, Git, REST API, Doctrine","PHPUnit, Sylius, Shopware, Pimcore",15000,20000.0,"['PHP', 'Symfony', 'Git', 'REST API', 'Doctrine']"
+849,Remote Python Developer,SQ3 Partners,mid,18568 21456,"Python, Angielski, (C1), Polski, (NATIVE)","Java, C#, Docker, Scala, DevOps, Cloud, development, NoSQL, Kubernetes, CI/CD, Web, development, Multithreading, TigerGraph, Neo4j",18568,21456.0,"['Python', 'Angielski', '(C1)', 'Polski', '(NATIVE)']"
+850,Cloud DevOps,Hitachi Energy,mid,19000 28000,"DevOps, Linux, Windows, VMware, Docker, Kubernetes, Angielski","SonarQube, ArgoCD, AWS, GCP, CI/CD, Git",19000,28000.0,"['DevOps', 'Linux', 'Windows', 'VMware', 'Docker', 'Kubernetes', 'Angielski']"
+851,Kubernetes Engineer,C.H. Robinson,mid,20000 25000,"Kubernetes, Terraform, Docker, Linux, Azure, Cloud, Load, balancing, Angielski, (C1)","Python, Bash, CI/CD, Nginx, Prometheus",20000,25000.0,"['Kubernetes', 'Terraform', 'Docker', 'Linux', 'Azure', 'Cloud', 'Load', 'balancing', 'Angielski', '(C1)']"
+852,Remote Back-end Python Developer,ALGOTEQUE,senior,16000 25000,"Python, Django, PostgreSQL, API, AWS, Cloud, GitHub, GitHub, Actions, Angielski, (B2)",Go,16000,25000.0,"['Python', 'Django', 'PostgreSQL', 'API', 'AWS', 'Cloud', 'GitHub', 'GitHub', 'Actions', 'Angielski', '(B2)']"
